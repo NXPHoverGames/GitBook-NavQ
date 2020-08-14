@@ -1,4 +1,4 @@
-# Flashing the NavQ with &lt;u&gt; 18.04 rootfs \(internal\)
+# Flashing the NavQ with 18.04 rootfs \(internal\)
 
 ## Grabbing necessary files
 
@@ -94,5 +94,10 @@ Username: bluebox
 Password: bluebox
 ```
 
+{% hint style="warning" %}
+Note there are other usernames and passwords used for the SDK and Demo \(Ubuntu\) images.
+{% endhint %}
+
+  
 Whala! You're done!
 

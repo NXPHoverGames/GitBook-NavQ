@@ -43,5 +43,5 @@
 ## Archive
 
 * [Developer Quick Start Guide](archive/developer-quick-start-guide.md)
-* [Flashing the NavQ with &lt;u&gt; 18.04 rootfs \(internal\)](archive/flashing-the-navq-with-ubuntu-18.04-rootfs.md)
+* [Flashing the NavQ with 18.04 rootfs \(internal\)](archive/flashing-the-navq-with-ubuntu-18.04-rootfs.md)
 
