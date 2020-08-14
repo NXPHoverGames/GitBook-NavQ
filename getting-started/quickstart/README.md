@@ -18,7 +18,9 @@ The SD Card slot on the NavQ is sandwiched between the Media Board and the Hover
 
 ## Default username/password for the Demo image
 
-The SD card included in the NavQ kit is preloaded with our HoverGames-Demo Linux distribution. The default username and password are both `navq`.
+The SD card included in the NavQ kit is preloaded with our HoverGames-Demo Linux distribution. The default username and password are:
+
+### Username: navq Password: navq
 
 ## Powering the NavQ
 
