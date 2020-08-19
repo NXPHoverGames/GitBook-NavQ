@@ -35,7 +35,7 @@ To capture an image, we must first open a camera object and then read from it.
 
 ```text
 # Open camera and capture image form it
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture('v4l2src ! video/x-raw,width=640,height=480 ! decodebin ! videoconvert ! appsink', cv2.CAP_GSTREAMER)
 ret,frame = cap.read()
 ```
 
