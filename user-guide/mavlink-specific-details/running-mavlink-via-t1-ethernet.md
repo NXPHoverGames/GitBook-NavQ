@@ -21,7 +21,7 @@ It is not recommended to use DHCP in a vehicle such as a drone, since you genera
 It is suggested to use IP address **10.0.0.3** for **navq**. 
 {% endhint %}
 
-### connmann connection manager 
+### connman connection manager 
 
 The linux program `connman` is used for configuring the network settings . To force `connman` to use a fixed IP \( as in case when no DHCP is available\) the following file needs to be created.
 
