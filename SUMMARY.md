@@ -23,6 +23,8 @@
   * [Expand space on SD card/eMMC](getting-started/quickstart/expand-space-on-sd-card.md)
   * [Serial root console](getting-started/quickstart/serial-root-console.md)
   * [Mounting NavQ on HoverGames Drone](getting-started/quickstart/mounting-navq-on-hovergames-drone.md)
+  * [Installing mavlink-router](getting-started/quickstart/installing-mavlink-router.md)
+  * [Proposal for hostname](getting-started/quickstart/proposal-for-hostname.md)
 * [HoverGames-Demo Bugs/Fixes](getting-started/hovergames-demo-fixes.md)
 
 ## NavQ Developer Guide
