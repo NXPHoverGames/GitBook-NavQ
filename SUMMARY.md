@@ -23,10 +23,17 @@
   * [Expand space on SD card/eMMC](getting-started/quickstart/expand-space-on-sd-card.md)
   * [Serial root console](getting-started/quickstart/serial-root-console.md)
   * [Mounting NavQ on HoverGames Drone](getting-started/quickstart/mounting-navq-on-hovergames-drone.md)
-  * [Installing mavlink-router](getting-started/quickstart/installing-mavlink-router.md)
-  * [Running MavLink via T1 Ethernet](getting-started/quickstart/running-mavlink-via-t1-ethernet.md)
-  * [Proposal for hostname](getting-started/quickstart/proposal-for-hostname.md)
 * [HoverGames-Demo Bugs/Fixes](getting-started/hovergames-demo-fixes.md)
+
+## User Guide
+
+* [Nano Editor](user-guide/nano-editor.md)
+* [Setting the NavQ hostname](user-guide/proposal-for-hostname.md)
+* [MavLink Specific details](user-guide/mavlink-specific-details/README.md)
+  * [mavlink-router](user-guide/mavlink-specific-details/installing-mavlink-router.md)
+  * [Running MavLink over T1 Ethernet](user-guide/mavlink-specific-details/running-mavlink-via-t1-ethernet.md)
+* [Miscellaneous Linux Commands](user-guide/miscellaneous-linux-commands/README.md)
+  * [Linux: Get the core temperature](user-guide/miscellaneous-linux-commands/linux-get-the-core-temperature.md)
 
 ## NavQ Developer Guide
 
@@ -47,9 +54,4 @@
 
 * [Developer Quick Start Guide](archive/developer-quick-start-guide.md)
 * [Flashing the NavQ with 18.04 rootfs \(internal\)](archive/flashing-the-navq-with-ubuntu-18.04-rootfs.md)
-
-## Misc
-
-* [Miscellaneous Linux Commands](misc/miscellaneous-linux-commands/README.md)
-  * [Linux: Get the core temperature](misc/miscellaneous-linux-commands/linux-get-the-core-temperature.md)
 
