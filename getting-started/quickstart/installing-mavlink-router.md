@@ -12,7 +12,7 @@ To be able to have several end nodes communicating via mavlink we need to set up
 * a QGC computer the navq connects to via wifi.
 * other mavlink enabled peripherals on the vehicle.
 
-### Compile and installation of mavlink router
+## Compile and installation of mavlink router
 
 is done with the following steps on the navq \(internet access required\)
 
@@ -29,12 +29,12 @@ Connect to navq console via ssh / serial
 ~/src/mavlink-router$ sudo make install
 ```
 
-###  Mavlink-router configuration
+##  Mavlink-router configuration
 
 Configuration of mavlink router is done via a single configuration file expected as _/etc/mavlink-router/main.conf_  
 This file needs to be created from scratch. An example configuration file is available in the mavlink-router sources - [https://github.com/intel/mavlink-router/blob/master/examples/config.sample](https://github.com/intel/mavlink-router/blob/master/examples/config.sample) 
 
-#### Setup the config file with minimal configuration 
+### Setup the config file with minimal configuration 
 
 ```text
 ~$ sudo nano /etc/mavlink-router/main.conf

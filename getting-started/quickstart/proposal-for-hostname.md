@@ -24,7 +24,7 @@ I'm in favour of the editor nano. Install nano with \(internet access required\)
 ~$ sudo apt install nano
 ```
 
-#### **adjust the hostname with nano**
+### **adjust the hostname with nano**
 
 ```text
 ~$ sudo nano /etc/hostname
@@ -34,7 +34,7 @@ I'm in favour of the editor nano. Install nano with \(internet access required\)
 navq-10
 ```
 
-#### adjust the hostname with echo command
+### adjust the hostname with echo command
 
 ```text
 ~$ sudo echo navq-10 > /etc/hostname

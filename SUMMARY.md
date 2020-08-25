@@ -24,6 +24,7 @@
   * [Serial root console](getting-started/quickstart/serial-root-console.md)
   * [Mounting NavQ on HoverGames Drone](getting-started/quickstart/mounting-navq-on-hovergames-drone.md)
   * [Installing mavlink-router](getting-started/quickstart/installing-mavlink-router.md)
+  * [Running MavLink via T1 Ethernet](getting-started/quickstart/running-mavlink-via-t1-ethernet.md)
   * [Proposal for hostname](getting-started/quickstart/proposal-for-hostname.md)
 * [HoverGames-Demo Bugs/Fixes](getting-started/hovergames-demo-fixes.md)
 
