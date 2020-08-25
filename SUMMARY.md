@@ -45,3 +45,8 @@
 * [Developer Quick Start Guide](archive/developer-quick-start-guide.md)
 * [Flashing the NavQ with 18.04 rootfs \(internal\)](archive/flashing-the-navq-with-ubuntu-18.04-rootfs.md)
 
+## Misc
+
+* [Miscellaneous Linux Commands](misc/miscellaneous-linux-commands/README.md)
+  * [Linux: Get the core temperature](misc/miscellaneous-linux-commands/linux-get-the-core-temperature.md)
+
