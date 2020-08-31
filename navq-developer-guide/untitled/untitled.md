@@ -45,7 +45,7 @@ This will add the `navq` user to the dialout user group and set the baud rate on
 
 ## Offboard control guide
 
-### MAVROS node
+### MAVROS node example
 
 A coding guide for the ROS node we will be using is located at the link below.
 
