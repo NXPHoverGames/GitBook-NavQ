@@ -180,6 +180,8 @@ To use the i2c commands without root, you'll need to add the navq user to the i2
 
 ```text
 $ sudo usermod -aG i2c $USER
+$ sudo su
+$ echo 'KERNEL=="i2c-[0-9]*", GROUP="i2c"' >> /etc/udev/rules.d/10-local_i2c_group.rules
 ```
 
 ### Checking connection
