@@ -1,5 +1,5 @@
 ---
-description: A comprehensive guide on using the NavQ as an I2C master
+description: A comprehensive guide on using the NavQ as an I2C master (work in progress)
 ---
 
 # I2C
