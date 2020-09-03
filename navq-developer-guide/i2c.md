@@ -8,6 +8,10 @@ description: A comprehensive guide on using the NavQ as an I2C master (work in p
 
 The NavQ includes an I2C port in one of the JST-GH connectors. You may use this port to communicate to other devices in your drone system. In this example, we will go over the process of connecting a Teensy LC to the NavQ over I2C to control some WS2812 LEDs.
 
+### TODO
+
+
+
 ## Prerequisites
 
 ### Hardware
@@ -166,6 +170,14 @@ void requestEvent(void)
 ```
 
 ## NavQ commands
+
+### Add navq user to i2c group
+
+To use the i2c commands without root, you'll need to add the navq user to the i2c group. To do this, you can run the following command:
+
+```text
+$ sudo usermod -aG i2c $USER
+```
 
 ### Checking connection
 
