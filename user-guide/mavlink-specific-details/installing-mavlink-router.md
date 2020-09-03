@@ -39,6 +39,18 @@ To install and compile `mavlink router` follow the steps below \(internet access
 Configuration of `mavlink router` is done via a single configuration file  ``_`/etc/mavlink-router/main.conf`_  
 This file needs to be created from scratch. An example configuration file is available in the mavlink-router sources - [https://github.com/intel/mavlink-router/blob/master/examples/config.sample](https://github.com/intel/mavlink-router/blob/master/examples/config.sample) 
 
+{% hint style="danger" %}
+As of today the mavlink-router _make install_ does not create the /etc/mavlink-router directory and main.conf file.  
+Therefore please use the following commands to create the directory and file initially.
+
+~$ sudo mkdir /etc/mavlink-router
+
+~$ sudo touch /etc/mavlink-router/main.conf
+{% endhint %}
+
+  
+
+
 ### Setup the config file with minimal configuration 
 
 ```text
