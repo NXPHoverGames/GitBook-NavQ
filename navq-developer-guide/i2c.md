@@ -196,7 +196,7 @@ Once your Teensy is connected using the I2C JST-GH connector, you need to confir
 $ i2cdetect -y 1
 ```
 
-You should see a device at address 29. If there is no device at address 29, you'll need to check your wiring.
+You should see a device at address 0x29. If there is no device at address 0x29, you'll need to check your wiring.
 
 ### Sending data to the Teensy
 
