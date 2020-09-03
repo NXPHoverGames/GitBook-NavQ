@@ -48,9 +48,6 @@ Therefore please use the following commands to create the directory and file ini
 ~$ sudo touch /etc/mavlink-router/main.conf
 {% endhint %}
 
-  
-
-
 ### Setup the config file with minimal configuration 
 
 ```text
