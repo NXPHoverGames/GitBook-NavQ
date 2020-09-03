@@ -84,6 +84,10 @@ We have written some simple example code that changes the color of the NeoPixel 
 Make sure that you install the Adafruit\_NeoPixel library in the Arduino IDE.
 {% endhint %}
 
+{% hint style="info" %}
+The i2c\_t3 library is included with the TeensyDuino software. Make sure to use "Wire1" instead of "Wire" since we are using the SDA1/SCLK1 pins on the Teensy.
+{% endhint %}
+
 ```text
 #include <Adafruit_NeoPixel.h>
 #include <i2c_t3.h>
