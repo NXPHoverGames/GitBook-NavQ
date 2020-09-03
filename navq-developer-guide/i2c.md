@@ -10,7 +10,10 @@ The NavQ includes an I2C port in one of the JST-GH connectors. You may use this 
 
 ### TODO
 
-
+1. Add guide for using C/Python SMBus libraries for controlling I2C
+2. Add more pictures/visuals
+3. Explain teensy code
+4. etc
 
 ## Prerequisites
 
