@@ -38,6 +38,7 @@
 ## NavQ Developer Guide
 
 * [Building a Linux image for NavQ](navq-developer-guide/building-a-linux-image-for-navq.md)
+* [I2C](navq-developer-guide/i2c.md)
 * [Package Management](navq-developer-guide/package-management.md)
 * [ROS/ROS2](navq-developer-guide/untitled/README.md)
   * [Controlling your drone using NavQ](navq-developer-guide/untitled/untitled.md)
