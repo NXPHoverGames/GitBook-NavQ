@@ -208,3 +208,96 @@ $ i2cset -y 1 0x29 0x1
 
 This will change the LEDs to white. You can swap the 0x1 with a 0x0 or any other byte to switch back to green.
 
+## Controlling I2C bus with Python/C
+
+Controlling the I2C bus with console commands is great, but what about when we want to integrate those commands into code? Well, with Python and C, we can control the Teensy over I2C by using some libraries supplied in both the Linux kernel and through pip.
+
+### Python
+
+First, you'll need to install the `smbus` pip package. To do this, just run in your terminal:
+
+```text
+$ pip3 install smbus
+```
+
+Once that is installed, you can run a simple script to select a 1 or 0 to send to the NavQ to change the color of the LEDs.
+
+```text
+from smbus import SMBus
+
+addr = 0x29
+bus = SMBus(1)
+
+numb = 1
+
+print("Enter 1 for WHITE or 0 for GREEN")
+while(numb == 1):
+    ledstate = input(">>>>   ")
+
+    if(ledstate == "1"):
+        bus.write_byte(addr, 0x1)
+    elif(ledstate == "0"):
+        bus.write_byte(addr, 0x0)
+    else:
+        numb = 0
+```
+
+The expected output of this script is as follows:
+
+```text
+navq@imx8mmnavq:~$ python3 i2c.py
+Enter 1 for WHITE or 0 for GREEN
+>>>>   1
+>>>>   0
+```
+
+By selecting 1 or 0, you can change the color of the LEDs to white or green.
+
+### C
+
+To control the I2C bus with C, you can use the following code:
+
+```text
+#include <linux/i2c-dev.h>
+#include <string.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <sys/ioctl.h>
+#include <sys/types.h>
+#include <fcntl.h>
+
+int main() {
+        // Init vars - file descriptor and I2C slave address
+        int file;
+        int addr = 0x29;
+        char filename[20];
+
+        // Open the /dev/i2c-1 device filename and apply the address using ioctl
+        sprintf(filename, "/dev/i2c-1");
+        file = open(filename, O_RDWR);
+        if(file < 0) {
+                printf("Failed to open the i2c bus");
+                exit(1);
+        }
+        if(ioctl(file, I2C_SLAVE, addr) < 0) {
+                printf("Failed to acquire bus access and/or talk to slave.\n");
+                exit(1);
+        }
+        
+        // Create a data buffer, then ask the user for a 0 or 1 to change LED color
+        // LED color is changed by writing buf to file
+        char buf[10] = {0};
+        buf[0] = 0x0;
+        while(1==1){
+                printf("Enter a 0 for GREEN and a 1 for WHITE: ");
+                scanf("%X", &buf[0]);
+                if(write(file,buf,1) != 1) {
+                        printf("Failed to write to the i2c bus.\n");
+                }
+                printf("\n");
+        }
+}
+
+```
+
