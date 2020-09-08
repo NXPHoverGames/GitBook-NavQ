@@ -1,8 +1,4 @@
----
-description: '[WORK IN PROGRESS]'
----
-
-# Flash SD card/eMMC with Linux image
+# Downloading & Flashing the HoverGames-Demo Linux Image
 
 ## Preparing the image
 

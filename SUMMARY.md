@@ -19,7 +19,7 @@
 
 * [Quick start Guide](getting-started/quickstart/README.md)
   * [Power Cables](getting-started/quickstart/power-cables.md)
-  * [Flash SD card/eMMC with Linux image](getting-started/quickstart/flash-sd-card-with-linux-image.md)
+  * [Downloading & Flashing the HoverGames-Demo Linux Image](getting-started/quickstart/flash-sd-card-with-linux-image.md)
   * [Expand space on SD card/eMMC](getting-started/quickstart/expand-space-on-sd-card.md)
   * [Serial root console](getting-started/quickstart/serial-root-console.md)
   * [Mounting NavQ on HoverGames Drone](getting-started/quickstart/mounting-navq-on-hovergames-drone.md)
