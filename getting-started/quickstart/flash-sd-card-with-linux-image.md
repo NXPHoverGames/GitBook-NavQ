@@ -114,5 +114,9 @@ Download Win32DiskImager:
 
 {% embed url="https://sourceforge.net/projects/win32diskimager/" %}
 
-Open the program and select your SD card and .wic file, then click "Write".
+{% hint style="info" %}
+Currently the HoverGames-Demo Linux image is packaged as a .img file. In future releases, it may be packaged as a .wic.bz2 file. If it is packaged as a .wic.bz2 file, you'll want to extract the .bz2 file before flashing using Win32DiskImager.
+{% endhint %}
+
+Open the program and select your SD card. Choose the .wic OR .img file, then click "Write".
 
