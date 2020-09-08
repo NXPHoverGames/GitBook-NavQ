@@ -58,7 +58,7 @@ Therefore please use the following commands to create the directory and file ini
 #Mavlink router configuration navq
 #
 [General]
-TcpServerPort=5790
+TcpServerPort=5760
 ReportStats=false
 MavlinkDialect=auto
 
