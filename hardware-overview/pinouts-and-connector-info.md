@@ -20,7 +20,13 @@ UART3 will mainly be used for serial communication to the FMU in HoverGames, but
 
 ## UART4/I2C/GPIO
 
-The bottom 9 pin JST-GH connector in the image of the HGI is used for UART4/I2C/GPIO. The UART4 pins do not have flow control on this connector. There is no multiplexing on this connector as well. The pinout is below.
+The bottom 9 pin JST-GH connector in the image of the HGI is used for UART4/I2C/GPIO. 
+
+{% hint style="info" %}
+The UART4 port on this connector is tied to the ARM Cortex-M4 core. It is not available for use in Linux.
+{% endhint %}
+
+The UART4 pins do not have flow control on this connector. There is no multiplexing on this connector as well. The pinout is below.
 
 ![](../.gitbook/assets/image%20%2822%29.png)
 
