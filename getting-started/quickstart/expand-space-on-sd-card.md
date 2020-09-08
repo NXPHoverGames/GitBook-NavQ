@@ -32,7 +32,7 @@ The script should be executable when it is included in the image. If it isn't, t
 $ chmod a+x ./resizeDisk.sh
 ```
 
-## Running out of space
+## Manually expanding space
 
 {% hint style="info" %}
 If you don't want to use the script, you can run the commands below.
