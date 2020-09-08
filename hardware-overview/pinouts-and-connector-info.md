@@ -24,11 +24,27 @@ The bottom 9 pin JST-GH connector in the image of the HGI is used for UART4/I2C/
 
 ![](../.gitbook/assets/image%20%2822%29.png)
 
+### Linux GPIO Pin IDs
+
+| GPIO Pin \(JST-GH Pin\) | Linux GPIO ID |
+| :--- | :--- |
+| GPIO1\_IO10 \(6\) | 10 |
+| GPIO1\_IO12 \(7\) | 12 |
+| GPIO1\_IO14 \(8\) | 14 |
+
 ## SPI/GPIO
 
 The SPI/GPIO port has a full pinout for SPI as well as 3 GPIO pins. The SPI pins can be muxed to a full UART 4 port with flow control. The pinout is below.
 
 ![](../.gitbook/assets/image%20%2825%29.png)
+
+### Linux GPIO Pin IDs
+
+| GPIO Pin \(JST-GH Pin\) | Linux GPIO ID |
+| :--- | :--- |
+| GPIO1\_IO11 \(6\) | 11 |
+| GPIO1\_IO13 \(7\) | 13 |
+| GPIO1\_IO15 \(8\) | 15 |
 
 ## GPIO Headers
 
