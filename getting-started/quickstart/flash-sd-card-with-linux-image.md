@@ -32,11 +32,9 @@ NOTE: This file is only needed for flashing with UUU to the eMMC/SD Card. If you
 
 {% embed url="https://drive.google.com/file/d/1AYRxy-okiu8\_9\_9EmC5DWbCq-hZk2PKw/view?usp=sharing" %}
 
-
-
 ### Step 1
 
-Flip the DIP switches on your NavQ to put it into USB flashing mode. Here is an image that shows how to do so:
+Flip the DIP switches on your NavQ to put it into USB flashing mode \(boot from USB in the image below\). Here is an image that shows how to do so:
 
 ![](../../.gitbook/assets/image%20%2844%29.png)
 
@@ -74,11 +72,11 @@ You can flash both the SD card and the eMMC using this tool. The keyword for fla
 ```text
 Linux
 -----
-$ ./uuu -b emmc_all <.bin-flash_navq> <.wic.bz2 OR .img>
+$ ./uuu -b [emmc_all|sd_all] <.bin-flash_navq> <.wic.bz2 OR .img>
 
 Windows
 -------
-$ .\uuu.exe -b emmc_all <.bin-flash_navq> <.wic.bz2 OR .img>
+$ .\uuu.exe -b [emmc_all|sd_all] <.bin-flash_navq> <.wic.bz2 OR .img>
 ```
 
 After a few moments, your board should be flashed. Unplug your NavQ from power, reset the DIP switches to the desired boot device, and you're good to go!
