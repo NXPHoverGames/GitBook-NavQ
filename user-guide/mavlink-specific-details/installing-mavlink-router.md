@@ -64,7 +64,7 @@ MavlinkDialect=auto
 
 [UartEndpoint FMUuart]
 Device=/dev/ttymxc2
-Baud=155200
+Baud=921600
 
 [UdpEndpoint FMUeth]
 Mode = Eavesdropping
@@ -78,7 +78,10 @@ Port = 14550
 ```
 
 {% hint style="info" %}
-The configuration above assumes that the NavQ gets mavlink data from FMU either via UART3 \(/dev/ttymxc2\) or UDP.
+The configuration above assumes that the NavQ gets mavlink data from FMU either via UART3 \(/dev/ttymxc2\) or UDP.  
+If you use UART please set on the FMU the corresponding serial port to 921600Bd.  
+For this the SER\_TELx\_BAUD \(x = number of telemetry port\) parameter needs to be adjusted to 921600 8N.  
+If you use lower speed QGroundControl might fail to load parameters.
 {% endhint %}
 
   
