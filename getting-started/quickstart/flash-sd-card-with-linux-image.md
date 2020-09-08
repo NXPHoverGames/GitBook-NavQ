@@ -12,6 +12,10 @@ The HoverGames images come as a .bz2 compressed archive. To decompress this imag
 
 NXP has a tool for flashing i.MX hardware called UUU \(Universal Update Utility\). You can download UUU from here:
 
+{% hint style="info" %}
+It is recommended to download the "Latest Release", not the "Pre-Release" at the top of the page.
+{% endhint %}
+
 {% embed url="https://github.com/NXPmicro/mfgtools/releases" %}
 
 If you're on Windows, you'll want to download the `uuu.exe` file, and if you're on Linux, you'll want to download the `uuu` file.
