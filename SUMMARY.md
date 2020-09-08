@@ -38,6 +38,7 @@
 ## NavQ Developer Guide
 
 * [Building a Linux image for NavQ](navq-developer-guide/building-a-linux-image-for-navq.md)
+* [Controlling GPIO in Linux on NavQ](navq-developer-guide/controlling-gpio-in-linux-on-navq.md)
 * [I2C](navq-developer-guide/i2c.md)
 * [Package Management](navq-developer-guide/package-management.md)
 * [ROS/ROS2](navq-developer-guide/untitled/README.md)
