@@ -43,16 +43,7 @@ Once you're done flashing, you can use this image to select the boot mode: eMMC 
 Connect your NavQ using the included USB-C cable to your computer. You should recieve a message on your computer that it has been connected. To make sure the NavQ is connected, you can run the UUU program with the `-lsusb` flag and you should see an output similar to this:
 
 ```text
-Linux
------
 $ ./uuu -lsusb
-
-Windows
--------
-$ .\uuu.exe -lsusb
-
-Output
-------
 uuu (Universal Update Utility) for nxp imx chips -- libuuu_1.3.191-0-g4fe24b9
 
 Connected Known USB Devices
@@ -66,13 +57,7 @@ Connected Known USB Devices
 You can flash both the SD card and the eMMC using this tool. The keyword for flashing the SD card is `sd_all`, while the keyword for flashing the eMMC is `emmc_all`. The command to flash your board is outlined below:
 
 ```text
-Linux
------
 $ ./uuu -b emmc_all <.bin-flash_navq> <.wic.bz2 OR .img>
-
-Windows
--------
-$ .\uuu.exe -b emmc_all <.bin-flash_navq> <.wic.bz2 OR .img>
 ```
 
 After a few moments, your board should be flashed. Unplug your NavQ from power, reset the DIP switches to the desired boot device, and you're good to go!
