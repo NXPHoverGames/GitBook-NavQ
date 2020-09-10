@@ -47,6 +47,10 @@
 * [GStreamer](navq-developer-guide/gstreamer/README.md)
   * [Streaming Video to QGroundControl using NavQ over WiFi](navq-developer-guide/gstreamer/streaming-video-to-qgroundcontrol-using-navq-over-wifi.md)
 
+## Projects
+
+* [Battery LED w/ Teensy LC](projects/battery-led-w-teensy-lc.md)
+
 ---
 
 * [HoverGames](https://www.hovergames.com)
