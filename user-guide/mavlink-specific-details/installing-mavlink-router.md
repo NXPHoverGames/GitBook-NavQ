@@ -15,6 +15,18 @@ The end nodes can be
 * Other mavlink enabled peripherals on the vehicle.
 * Another program running on the same remote PC as QGC
 
+## Prerequisites
+
+### Set up TELEM2 on the FMU
+
+Connect to your FMU over USB and open QGroundControl. Navigate to Settings -&gt; Parameters -&gt; MAVLink and set these parameters:
+
+![](../../.gitbook/assets/image%20%2819%29.png)
+
+Also, you'll need to make sure that the settings in Settings -&gt; Parameters -&gt; Serial look like this:
+
+![](../../.gitbook/assets/image%20%2820%29.png)
+
 ## Installation and compiling mavlink router
 
 To install and compile `mavlink router` follow the steps below \(internet access required on your NavQ\)
