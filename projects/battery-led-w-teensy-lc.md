@@ -4,6 +4,12 @@ description: '[WIP]'
 
 # Battery LED w/ Teensy LC
 
+## Introduction
+
+This "Project Guide" is written to show some of the capabilites of NavQ. In conjunction with a Teensy LC and a strip of WS2812B LEDs, you can add a forward-facing battery indicator light to your drone.
+
+![The battery on my drone is quite low!](../.gitbook/assets/pic.jpg)
+
 ## Prerequisites
 
 ### Software
