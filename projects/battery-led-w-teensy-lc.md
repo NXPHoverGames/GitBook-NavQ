@@ -31,6 +31,8 @@ At the moment, we're just going to paste the code here, and a more detailed guid
 
 ### Teensy code
 
+This code should be uploaded to the Teensy using the Arduino IDE. 
+
 {% file src="../.gitbook/assets/batt\_led.zip" caption="Teensy batt\_led code" %}
 
 ### NavQ code
