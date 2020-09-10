@@ -26,23 +26,6 @@ Also, you'll need to make sure that the settings in Settings -&gt; Parameters -&
 
 ![](../../.gitbook/assets/image%20%2820%29.png)
 
-### Set up the serial port on NavQ
-
-{% hint style="success" %}
-This should be fixed on the latest image, so you can skip this step.
-{% endhint %}
-
-Make sure that your NavQ is set up to communicate over serial by running the following command:
-
-```text
-$ sudo usermod -a -G dialout $USER
-$ logout
-<log back in>
-$ stty -F /dev/ttymxc2 921600
-```
-
-This will add the `navq` user to the dialout user group and set the baud rate on /dev/ttymxc2 to 921600 \(the default baud rate of the TELEM2 port on the RDDRONE-FMUK66\). 
-
 ## Offboard control guide
 
 ### MAVROS Offboard node example
