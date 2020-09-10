@@ -47,10 +47,10 @@ And here is a page where you can purchase the jumpers:
 NOTE: For the I2C connector, you'll need the 9-pin JST-GH connector.
 {% endhint %}
 
-In the hardware overview \(link here: [Hardware Overview](../hardware-overview/)\), you can see the pinout for the I2C connector. Here is another screenshot of it:  
+In the hardware overview \(link here: [Hardware Overview](../../hardware-overview/)\), you can see the pinout for the I2C connector. Here is another screenshot of it:  
 
 
-![I2C JST-GH connector](../.gitbook/assets/image%20%2846%29.png)
+![I2C JST-GH connector](../../.gitbook/assets/image%20%2846%29.png)
 
 The 5VP pin is on the left-most side of the connector, and GND is on the right-most side. I2C2\_SDA is pin 4, and I2C2\_SCL is pin 5. The JST-GH connector is positioned with the retention clip facing away from you when you are determining the left/right sides.
 
@@ -58,9 +58,9 @@ The 5VP pin is on the left-most side of the connector, and GND is on the right-m
 
 You'll need to do some soldering for the first step in this project. In the two pictures below, the NeoPixels are connected to the LED 5V, LED GND, and LED SIG pins. The JST-GH connector to the NavQ connects to the SDA/SCL pins and 5V + GND pads on the back of the Teensy.  
 
-![](../.gitbook/assets/teensy-top.jpg)
+![](../../.gitbook/assets/teensy-top.jpg)
 
-![](../.gitbook/assets/teensy-bottom.jpg)
+![](../../.gitbook/assets/teensy-bottom.jpg)
 
 {% hint style="info" %}
 Tip: you can solder the pre-terminated JST-GH wires directly to the pads and the through-hole pins to make things easier.
@@ -72,9 +72,9 @@ One thing to keep in mind is that even though the Teensy LC does not include pul
 
 Here are a couples images of this setup:
 
-![You can clearly see the soldering on the top of the teensy - SDA/SCL, and LED headers.](../.gitbook/assets/teensy-setup.jpg)
+![You can clearly see the soldering on the top of the teensy - SDA/SCL, and LED headers.](../../.gitbook/assets/teensy-setup.jpg)
 
-![Wire run from Teensy to NavQ](../.gitbook/assets/teensy-setup-2.jpg)
+![Wire run from Teensy to NavQ](../../.gitbook/assets/teensy-setup-2.jpg)
 
 ## Teensy code
 

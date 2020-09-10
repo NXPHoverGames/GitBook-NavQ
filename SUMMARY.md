@@ -39,7 +39,8 @@
 
 * [Building a Linux image for NavQ](navq-developer-guide/building-a-linux-image-for-navq.md)
 * [Controlling GPIO in Linux on NavQ](navq-developer-guide/controlling-gpio-in-linux-on-navq.md)
-* [I2C](navq-developer-guide/i2c.md)
+* [I2C](navq-developer-guide/i2c/README.md)
+  * [Battery LED w/ Teensy LC](navq-developer-guide/i2c/battery-led-w-teensy-lc.md)
 * [Package Management](navq-developer-guide/package-management.md)
 * [ROS/ROS2](navq-developer-guide/untitled/README.md)
   * [Controlling your drone using NavQ](navq-developer-guide/untitled/untitled.md)
@@ -47,14 +48,10 @@
 * [GStreamer](navq-developer-guide/gstreamer/README.md)
   * [Streaming Video to QGroundControl using NavQ over WiFi](navq-developer-guide/gstreamer/streaming-video-to-qgroundcontrol-using-navq-over-wifi.md)
 
-## Projects
-
-* [Battery LED w/ Teensy LC](projects/battery-led-w-teensy-lc.md)
-
 ---
 
-* [HoverGames](https://www.hovergames.com)
 * [HoverGames Gitbook](https://nxp.gitboook.io/hovergames)
+* [HoverGames](https://www.hovergames.com)
 
 ## Archive
 
