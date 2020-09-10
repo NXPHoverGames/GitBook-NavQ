@@ -1,0 +1,11 @@
+[Unit]
+After=network.service
+
+[Service]
+Type=simple
+User=navq
+ExecStart=/usr/local/bin/batt_led.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
