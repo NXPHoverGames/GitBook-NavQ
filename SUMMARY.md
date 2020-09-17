@@ -18,6 +18,7 @@
 ## Getting Started
 
 * [Quick start Guide](getting-started/quickstart/README.md)
+  * [Power input](getting-started/quickstart/power-input.md)
   * [Power Cables](getting-started/quickstart/power-cables.md)
   * [Downloading & Flashing the HoverGames-Demo Linux Image](getting-started/quickstart/flash-sd-card-with-linux-image.md)
   * [Expand space on SD card/eMMC](getting-started/quickstart/expand-space-on-sd-card.md)
