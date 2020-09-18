@@ -20,9 +20,9 @@ To install ROS2,  you'll also need to be on the Demo image. You can follow the g
 
 ### HoverGames-BSP image
 
-ROS Melodic is automatically installed on the Yocto-Deb image. It includes MAVROS by default. You will need to do a little bit of setup, though, once you first boot your image.
+ROS Melodic is automatically installed on the HoverGames-BSP image. It includes MAVROS by default. You will need to do a little bit of setup, though, once you first boot your image.
 
-Run the following commands to enable ROS on the Yocto-Deb image:
+Run the following commands to enable ROS on the HoverGames-BSP image:
 
 ```text
 $ sudo rosdep init
