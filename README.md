@@ -8,6 +8,18 @@ description: >-
 
 ![NavQ Mounted on HoverGames drone](.gitbook/assets/image%20%2837%29.png)
 
+{% hint style="success" %}
+Also have a look at some of the other **NXP GitBooks**:   
+- [HoverGames Drone](https://nxp.gitbook.io/hovergames/)  
+- [NavQ Companion Computer](https://nxp.gitbook.io/8mmnavq/)   
+- [UCANS32K UAVCAN Node](https://nxp.gitbook.io/ucans32k146/)   
+- [RDDRONE-BMS772 Battery Management System](https://nxp.gitbook.io/rddrone-bms772/)   
+- [D2X Reference Design](https://nxp.gitbook.io/d2x/)   
+- [NXP Cup](https://nxp.gitbook.io/nxp-cup-hardware-reference-alamak/)​
+{% endhint %}
+
+  
+  
 The 8MMNavQ is a small purpose built experimental Linux computer based on the [NXP i.MX 8M Mini SOC](https://www.nxp.com/products/processors-and-microcontrollers/arm-processors/i-mx-applications-processors/i-mx-8-processors:IMX8-SERIES). It is focused on the common needs of Mobile Robotics systems. 
 
 The system is built as a stack of boards, the top board being a SOM \(system on module\) containing the Processor, memory and other components with strict layout requirements, and where the secondary boards are relatively inexpensive \(often 4 layer boards\) and allows for versions with customization to be easily built.   
