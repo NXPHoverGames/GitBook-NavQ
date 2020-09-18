@@ -16,5 +16,7 @@ This is not a tutorial on [Gazebo](http://gazebosim.org/), but a list of some re
 * Youtube videos e.g. [https://youtu.be/mranHM9wn0g](https://youtu.be/mranHM9wn0g)
 * Read about [Gazebo on Wikipedia](https://en.wikipedia.org/wiki/Gazebo_simulator). 
 * Try out [this simple Gazebo tutorial to control a differential drive robot](http://gazebosim.org/tutorials?tut=ros2_installing&cat=connect_ros), which is a fun way to learn both Gazebo and ROS. \(smile\) 
-* Based on this tutorial some of our NXP colleagues made a [basic ROS2 + Gazebo workshop last year](https://nxp1.sharepoint.com/:v:/s/Roly-poly/EfwEfUu7JKlBhSyN0O-KriUBo1faT4lfsZikrTaPsnMCbg?e=twk2cm).   
+
+  
+
 
