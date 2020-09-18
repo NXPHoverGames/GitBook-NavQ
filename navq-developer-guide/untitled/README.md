@@ -16,7 +16,7 @@ To install ROS, you need to be on the Demo image. You can follow the guide for i
 
 #### ROS 2 Install Guide \(Foxy\)
 
-To install ROS2,  you'll also need to be on the Demo image. You can follow the guide for installing ROS 2 Eloquent Elusor at [https://index.ros.org/doc/ros2/Installation/Eloquent/Linux-Install-Debians/](https://index.ros.org/doc/ros2/Installation/Eloquent/Linux-Install-Debians/)
+To install ROS2,  you'll also need to be on the Demo image. You can follow the guide for installing ROS 2 Foxy Fitzroy at [https://index.ros.org/doc/ros2/Installation/Foxy/](https://index.ros.org/doc/ros2/Installation/Foxy/)
 
 ### HoverGames-BSP image
 
