@@ -47,6 +47,7 @@
   * [Controlling your drone using NavQ](navq-developer-guide/untitled/untitled.md)
 * [OpenCV](navq-developer-guide/opencv.md)
 * [GStreamer](navq-developer-guide/gstreamer/README.md)
+  * [Gazebo](navq-developer-guide/gstreamer/gazebo.md)
   * [Streaming Video to QGroundControl using NavQ over WiFi](navq-developer-guide/gstreamer/streaming-video-to-qgroundcontrol-using-navq-over-wifi.md)
 
 ---
