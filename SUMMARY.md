@@ -49,6 +49,7 @@
 * [GStreamer](navq-developer-guide/gstreamer/README.md)
   * [Streaming Video to QGroundControl using NavQ over WiFi](navq-developer-guide/gstreamer/streaming-video-to-qgroundcontrol-using-navq-over-wifi.md)
 * [Gazebo](navq-developer-guide/gazebo.md)
+* [pyeIQ](navq-developer-guide/pyeiq.md)
 
 ---
 
