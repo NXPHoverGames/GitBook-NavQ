@@ -1,6 +1,6 @@
 # Ad-Hoc Streaming using Mobile Hotspot
 
-## Windows
+## Configuring Windows
 
 ### Step 1 - Enable Mobile Hotspot
 
@@ -58,7 +58,13 @@ Now you can stream to QGroundControl as you normally would. Follow the guide her
 
 ## Ubuntu
 
-{% hint style="info" %}
-Coming soon
-{% endhint %}
+### Step 1 - Enable Wifi Hotspot
+
+To enable a WiFi hotspot in Ubuntu 20.04, you'll first need to go to Settings-&gt;WiFi. Then, at the top right, click the 3 dots button and select "Turn On Wi-Fi Hotspot...".
+
+![](../../.gitbook/assets/inkedturnon_li.jpg)
+
+After you click that entry, this window will pop up. Enter a network name and password, and you should be good to go! Follow Steps 3 and 4 in the Windows section above to configure your NavQ.
+
+![](../../.gitbook/assets/inkedwifihotspot_li.jpg)
 
