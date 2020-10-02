@@ -42,6 +42,7 @@
 * [Controlling GPIO in Linux on NavQ](navq-developer-guide/controlling-gpio-in-linux-on-navq.md)
 * [I2C](navq-developer-guide/i2c/README.md)
   * [Battery LED w/ Teensy LC](navq-developer-guide/i2c/battery-led-w-teensy-lc.md)
+* [SPI](navq-developer-guide/spi.md)
 * [Package Management](navq-developer-guide/package-management.md)
 * [ROS/ROS2](navq-developer-guide/untitled/README.md)
   * [Controlling your drone using NavQ](navq-developer-guide/untitled/untitled.md)
