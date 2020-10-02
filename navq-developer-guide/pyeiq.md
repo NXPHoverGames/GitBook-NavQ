@@ -4,7 +4,9 @@ description: Python framework for eIQ on i.MX
 
 # pyeIQ
 
-##  DRAFT DRAFT DRAFT
+{% hint style="info" %}
+This page is a work in progress.
+{% endhint %}
 
 {% hint style="danger" %}
 pyeIQ is not targeted at the i.MX Mini processor, but it may still work albeit with much lower performance than if an accelerator was available. We expect to use this more with the upcoming i.MX 8M Plus that includes a 2.25 TOPS neural net accelerator.
