@@ -10,6 +10,10 @@ ROS on NavQ will allow you to interface with sensors, control your drone using M
 
 ### HoverGames-Demo image
 
+{% hint style="info" %}
+HoverGames participants running the included Demo image should follow these steps.
+{% endhint %}
+
 #### ROS 1 Install Guide \(Noetic\)
 
 To install ROS, you need to be on the Demo image. You can follow the guide for installing ROS Noetic Ninjemys at [http://wiki.ros.org/noetic/Installation/Ubuntu](http://wiki.ros.org/noetic/Installation/Ubuntu)
@@ -19,6 +23,10 @@ To install ROS, you need to be on the Demo image. You can follow the guide for i
 To install ROS2,  you'll also need to be on the Demo image. You can follow the guide for installing ROS 2 Foxy Fitzroy at [https://index.ros.org/doc/ros2/Installation/Foxy/](https://index.ros.org/doc/ros2/Installation/Foxy/)
 
 ### HoverGames-BSP image
+
+{% hint style="info" %}
+If you're using NavQ comercially and are running the HoverGames-BSP image, you'll follow these steps.
+{% endhint %}
 
 ROS Melodic is automatically installed on the HoverGames-BSP image. It includes MAVROS by default. You will need to do a little bit of setup, though, once you first boot your image.
 
