@@ -56,7 +56,7 @@ Now you can stream to QGroundControl as you normally would. Follow the guide her
 
 {% page-ref page="streaming-video-to-qgroundcontrol-using-navq-over-wifi.md" %}
 
-## Ubuntu
+## Configuring Ubuntu
 
 ### Step 1 - Enable Wifi Hotspot
 
