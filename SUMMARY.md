@@ -52,6 +52,7 @@
   * [Ad-Hoc Streaming using Mobile Hotspot](navq-developer-guide/gstreamer/ad-hoc-streaming-using-mobile-hotspot.md)
 * [Gazebo](navq-developer-guide/gazebo.md)
 * [pyeIQ](navq-developer-guide/pyeiq.md)
+* [CAN communication](navq-developer-guide/can-communication.md)
 
 ---
 
