@@ -46,6 +46,7 @@
 * [Package Management](navq-developer-guide/package-management.md)
 * [ROS/ROS2](navq-developer-guide/untitled/README.md)
   * [Installing ROS2 foxy](navq-developer-guide/untitled/installing-ros2-foxy.md)
+  * [Setting up FMUK66 for fastRTPS over Ethernet](navq-developer-guide/untitled/setting-up-fmuk66-for-fastrtps-over-ethernet.md)
   * [Controlling your drone using NavQ](navq-developer-guide/untitled/untitled.md)
 * [OpenCV](navq-developer-guide/opencv.md)
 * [GStreamer](navq-developer-guide/gstreamer/README.md)
