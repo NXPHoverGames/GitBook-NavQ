@@ -45,6 +45,7 @@
 * [SPI](navq-developer-guide/spi.md)
 * [Package Management](navq-developer-guide/package-management.md)
 * [ROS/ROS2](navq-developer-guide/untitled/README.md)
+  * [Installing ROS2 foxy](navq-developer-guide/untitled/installing-ros2-foxy.md)
   * [Controlling your drone using NavQ](navq-developer-guide/untitled/untitled.md)
 * [OpenCV](navq-developer-guide/opencv.md)
 * [GStreamer](navq-developer-guide/gstreamer/README.md)
