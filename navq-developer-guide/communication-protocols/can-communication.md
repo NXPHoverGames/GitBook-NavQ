@@ -2,7 +2,7 @@
 description: '[WIP] A guide on communicating over CAN/SLCAN using NavQ and UCANS32K146'
 ---
 
-# CAN communication
+# CAN
 
 ## Introduction
 

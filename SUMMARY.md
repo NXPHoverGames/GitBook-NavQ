@@ -39,12 +39,12 @@
 ## NavQ Developer Guide
 
 * [Building a Linux image for NavQ](navq-developer-guide/building-a-linux-image-for-navq.md)
-* [Controlling GPIO in Linux on NavQ](navq-developer-guide/controlling-gpio-in-linux-on-navq.md)
 * [Communication Protocols](navq-developer-guide/communication-protocols/README.md)
+  * [GPIO](navq-developer-guide/communication-protocols/controlling-gpio-in-linux-on-navq.md)
   * [SPI](navq-developer-guide/communication-protocols/spi.md)
   * [I2C](navq-developer-guide/communication-protocols/i2c/README.md)
     * [Battery LED w/ Teensy LC](navq-developer-guide/communication-protocols/i2c/battery-led-w-teensy-lc.md)
-  * [CAN communication](navq-developer-guide/communication-protocols/can-communication.md)
+  * [CAN](navq-developer-guide/communication-protocols/can-communication.md)
 * [Software Support](navq-developer-guide/software-support/README.md)
   * [Package Management](navq-developer-guide/software-support/package-management.md)
   * [ROS/ROS2](navq-developer-guide/software-support/untitled/README.md)
