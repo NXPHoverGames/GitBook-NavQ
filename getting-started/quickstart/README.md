@@ -84,11 +84,11 @@ To record video with your NavQ, you can run this simple python script that uses 
 
 {% file src="../../.gitbook/assets/record\_video.py" %}
 
-This is a simple example that you can use as a starting point for even bigger things with OpenCV/computer vision! If you'd like a more sophisticated guide that runs through example code to detect red objects, head to the [developer guide on OpenCV](../../navq-developer-guide/opencv.md) to find more.
+This is a simple example that you can use as a starting point for even bigger things with OpenCV/computer vision! If you'd like a more sophisticated guide that runs through example code to detect red objects, head to the [developer guide on OpenCV](../../navq-developer-guide/software-support/opencv.md) to find more.
 
 ## Controlling HoverGames drone with NavQ
 
-To perform off-board control of the HoverGames drone from the NavQ, you'll need to get a little bit involved with ROS + MAVLink \(MAVROS\). To see a guide on how to get started, head over to the [developer guide](../../navq-developer-guide/untitled/)!
+To perform off-board control of the HoverGames drone from the NavQ, you'll need to get a little bit involved with ROS + MAVLink \(MAVROS\). To see a guide on how to get started, head over to the [developer guide](../../navq-developer-guide/software-support/untitled/)!
 
 ## Connecting to WiFi
 

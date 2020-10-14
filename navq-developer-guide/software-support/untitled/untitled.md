@@ -6,7 +6,7 @@ description: (WORK IN PROGRESS)
 
 ## MAVLink / MAVROS
 
-![](../../.gitbook/assets/image%20%2816%29.png)
+![](../../../.gitbook/assets/image%20%2816%29.png)
 
 The 8MMNavQ can control your HoverGames drone by communicating with the RDDRONE-FMUK66 over MAVROS. A UART cable will be included in the kit that connects the UART3 port on the 8MMNavQ to the TELEM2 port on the RDDRONE-FMUK66.
 
@@ -20,11 +20,11 @@ The 8MMNavQ can control your HoverGames drone by communicating with the RDDRONE-
 
 Connect to your FMU over USB and open QGroundControl. Navigate to Settings -&gt; Parameters -&gt; MAVLink and set these parameters:
 
-![](../../.gitbook/assets/image%20%2819%29.png)
+![](../../../.gitbook/assets/image%20%2819%29.png)
 
 Also, you'll need to make sure that the settings in Settings -&gt; Parameters -&gt; Serial look like this:
 
-![](../../.gitbook/assets/image%20%2820%29.png)
+![](../../../.gitbook/assets/image%20%2820%29.png)
 
 ## Offboard control guide
 

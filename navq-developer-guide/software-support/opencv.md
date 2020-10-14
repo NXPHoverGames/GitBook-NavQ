@@ -1,6 +1,6 @@
 # OpenCV
 
-![](../.gitbook/assets/image%20%2817%29.png)
+![](../../.gitbook/assets/image%20%2817%29.png)
 
 With OpenCV on NavQ, you will be able to harness a vast library of computer vision tools for use in HoverGames. OpenCV is installed out of the box on the HoverGames-BSP image and can be installed easily through the package manager on the HoverGames-Demo image. If you'd like to get a jump start on OpenCV, follow the guide below to create a program that detects red objects.
 
@@ -8,7 +8,7 @@ With OpenCV on NavQ, you will be able to harness a vast library of computer visi
 
 Let's go through a quick example of running OpenCV on the NavQ to identify a red object in an image taken on the Google Coral camera. This example will be written in Python and uses OpenCV.
 
-![](../.gitbook/assets/image%20%288%29.png)
+![](../../.gitbook/assets/image%20%288%29.png)
 
 ### Installing OpenCV
 

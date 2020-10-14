@@ -2,7 +2,7 @@
 
 ## ROS on NavQ
 
-![](../../.gitbook/assets/image%20%2818%29.png)
+![](../../../.gitbook/assets/image%20%2818%29.png)
 
 ROS on NavQ will allow you to interface with sensors, control your drone using MAVROS, and more. To get started, follow the install guide below and then continue to the next sections.
 

@@ -10,7 +10,7 @@ If you're thinking about using the CAN protocol on your drone, this guide will w
 
 Since there isn't a native CAN bus on the NavQ, we can use a protocol called SLCAN to communicate CAN messages across a UART connection. We have built a binary for the UCANS32K146 that acts as an SLCAN transfer layer. This means that we can add a CAN bus to NavQ by just connecting the UCANS32K146 to the UART3 port.
 
-![Diagram of setup](../.gitbook/assets/image%20%2856%29.png)
+![Diagram of setup](../../.gitbook/assets/image%20%2856%29.png)
 
 ## Setting up SLCAN on NavQ
 

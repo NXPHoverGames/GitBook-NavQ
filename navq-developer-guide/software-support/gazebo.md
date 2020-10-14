@@ -4,7 +4,7 @@ description: Where to learn more about Gazebo
 
 # Gazebo
 
-![](../.gitbook/assets/image%20%2847%29.png)
+![](../../.gitbook/assets/image%20%2847%29.png)
 
 [Gazebo ](http://gazebosim.org/)is one of several simulators that work with PX4 and ROS. 
 
