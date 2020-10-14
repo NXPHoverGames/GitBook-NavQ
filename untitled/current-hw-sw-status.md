@@ -10,6 +10,17 @@ description: Rolling updates on the status of hardware and software
 
 ## Software
 
+### October demo update
+
+The changelog for the October Demo Image update is as follows:
+
+* Added support for SLCAN devices
+* Added SPI support through the userspace SPI driver "spidev"
+* Fixed issues with SDMA firmware loading
+* Fixed an issue with Bluetooth sometimes not working after a reboot
+
+### NavQ development updates
+
 As of July 17 2020:
 
 * &lt;u&gt; 20.04 image is fully working with package manager, ROS, UART, WiFi, etc.
