@@ -50,6 +50,16 @@ $ echo "source /home/<user>/catkin_ws/devel/setup.bash" >> ~/.bashrc
 
 This will ensure that your development environment is properly set up when you open a new shell.
 
+### Installing MAVROS specific packages
+
+Follow the "binary installation" guide on the page below to install the necessary MAVROS packages from apt.
+
+{% hint style="warning" %}
+Make sure to use 'noetic' in place of 'kinetic' in the commands they give you on this page. Also, you do NOT need to follow the "Source Installation" section of the guide.
+{% endhint %}
+
+{% embed url="https://dev.px4.io/master/en/ros/mavros\_installation.html\#binary-installation-debian--ubuntu" %}
+
 ### Creating a new package
 
 To create our first ROS package, we will want to navigate to our catkin workspace's `src` folder and run the following command:
