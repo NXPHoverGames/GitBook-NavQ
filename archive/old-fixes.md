@@ -45,3 +45,26 @@ $ export LD_LIBRARY_PATH=/usr/lib >> ~/.bashrc
 $ source ~/.bashrc
 ```
 
+## Linux Device Tree
+
+Currently the patches for the linux device tree in our build system are not working. To fix hardware issues like the camera, HDMI, and WiFi, you'll need to replace the \*.dtb file on the boot partition of your SD card. You'll need the following file to follow the steps below:
+
+{% file src="../.gitbook/assets/imx8mm-cube.dtb" caption="imx8mm-cube.dtb" %}
+
+### Steps
+
+1. Insert your SD card into your computer
+2. Open the `boot` partition that is mounted by default.
+3. Drag and drop the `imx8mm-cube.dtb` file into the boot partition.
+4. Boot your NavQ. Quickly connect to it using a serial monitor such as PuTTY.
+5. Press `Enter` repeatedly after it boots to bring up the `u-boot=>` prompt.
+6. In the `u-boot=>` prompt, run the following commands:
+
+```text
+u-boot=>setenv fdt_file imx8mm-cube.dtb
+u-boot=>saveenv
+u-boot=>boot
+```
+
+Once you have completed these steps, you should be good to go until you reflash your SD card with a new image.
+
