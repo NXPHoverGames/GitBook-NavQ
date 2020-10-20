@@ -66,6 +66,7 @@
 
 ## Archive
 
+* [Old Fixes](archive/old-fixes.md)
 * [Developer Quick Start Guide](archive/developer-quick-start-guide.md)
 * [Flashing the NavQ with 18.04 rootfs \(internal\)](archive/flashing-the-navq-with-ubuntu-18.04-rootfs.md)
 
