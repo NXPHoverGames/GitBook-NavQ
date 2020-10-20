@@ -8,6 +8,14 @@ description: Guide to get the 8MMNavQ up and running quickly
 
 The NavQ is a device that will allow you to add extra compute to your HoverGames drone system. With an i.MX 8M Mini processor, you will be able to reach new boundaries of vision and sensor data processing.
 
+## Current Demo build version
+
+The current Demo build was built on 7/24/2020. Confirm you are on the correct image by running `uname -a`. You should get the following output:
+
+```text
+Linux imx8mmnavq 5.4.24-2.1.0+gbabac008e5cf #1 SMP PREEMPT Fri Jul 24 23:17:18 UTC 2020 aarch64 aarch64 aarch
+```
+
 ## Notice about SD Card Slot
 
 {% hint style="danger" %}
