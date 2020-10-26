@@ -69,6 +69,10 @@ Connected Known USB Devices
 
 You can flash both the SD card and the eMMC using this tool. The keyword for flashing the SD card is `sd_all`, while the keyword for flashing the eMMC is `emmc_all`. The command to flash your board is outlined below:
 
+{% hint style="info" %}
+There are advantages and disadvantages to each storage medium. eMMC is faster, but is locked to 16GB size and is non-removable. SD cards can be of any size you like and are removable, but they are quite a bit slower.
+{% endhint %}
+
 ```text
 Linux
 -----
