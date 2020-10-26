@@ -119,7 +119,7 @@ $ ping www.nxp.com
 ```
 
 {% hint style="info" %}
-When you run `services`, there may be duplicates of each WiFi network. We reccomend you use the first one, there have been issues connecting after reboot with the second one.
+When you run `services`, there may be duplicates of each WiFi network. Try to connect to your WiFi network with each key until it works. Sometimes the first one works, and sometimes the second one works. You will get a connection successful message if it works correctly.
 {% endhint %}
 
 Your NavQ should automatically connect to WiFi when rebooted. If you want to connect to another WiFi network, just go through the same process again.
