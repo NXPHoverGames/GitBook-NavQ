@@ -34,6 +34,7 @@
   * [mavlink-router](user-guide/mavlink-specific-details/installing-mavlink-router.md)
   * [Running MavLink over T1 Ethernet](user-guide/mavlink-specific-details/running-mavlink-via-t1-ethernet.md)
 * [Miscellaneous Linux Commands](user-guide/miscellaneous-linux-commands/README.md)
+  * [GPS Time](user-guide/miscellaneous-linux-commands/gps-time.md)
   * [Linux: Get the core temperature](user-guide/miscellaneous-linux-commands/linux-get-the-core-temperature.md)
 
 ## NavQ Developer Guide
