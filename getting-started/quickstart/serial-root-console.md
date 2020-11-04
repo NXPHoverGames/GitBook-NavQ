@@ -14,8 +14,12 @@ The root console will allow monitoring of the board from initial boot. Since mod
   * There should be a red light illuminated on the USB-UART board \(even when not plugged into the NAvQ\)
 * Follow the terminal configuration below and power on the NavQ
 
-{% hint style="danger" %}
-Troubleshooting hint: If the COM port does not show in Device Manager or you don't hear the "usb connect sound" double check that the USB-C connector is fully plugged in and seated into the USB-UART adapter board.
+{% hint style="warning" %}
+Troubleshooting Tip: If the COM port does not show in Device Manager or you don't hear the "usb connect sound" double check that the USB-C connector is fully plugged in and seated into the USB-UART adapter board.
+{% endhint %}
+
+{% hint style="warning" %}
+Troubleshooting Tip: If the USB UART is not detected on your PC, in some instances you may need to download FDTI USB-UART driver software. It can be found here: [https://www.ftdichip.com/Drivers/D2XX.htm](https://www.ftdichip.com/Drivers/D2XX.htm)
 {% endhint %}
 
 ## Terminal software connection
