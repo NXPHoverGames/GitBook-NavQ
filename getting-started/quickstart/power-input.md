@@ -2,7 +2,7 @@
 
 ## Power input specification
 
-The NavQ is specified as 20V max input. 
+The NavQ can take a voltage of 5V to 20V.
 
 The board may also be powered via USB- which also has a 20V max input rating.
 
