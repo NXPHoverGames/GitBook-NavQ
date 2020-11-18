@@ -14,8 +14,6 @@ These fixes are for the build on 7/24/2020. This page will be updated for each n
 
 ## Quick Workarounds
 
-* Bluetooth is not working due to an issue with hciuart.service.
-  * Workaround: No workaround at the moment.
 * WiFi sometimes does not automatically connect to the last WiFi network after reboot.
   * Workaround: Open connmanctl, run `disable wifi`, and reconnect using the instructions in the Quick Start Guide.
 

@@ -19,6 +19,10 @@ The NavQ SOM \(System on Module\) contains the brains of the NavQ. On this board
 | eMMC Flash | 16GB |
 | Qualcomm WiFi/BT | 802.11ac + BT 5.0 |
 
+### Dimensions
+
+The NavQ's dimensions are 3" W x 2" L x 7/16" H. 
+
 ## Media Board
 
 ![](../.gitbook/assets/img_4108.jpeg)
@@ -38,6 +42,12 @@ The Media Board consists of an SD Card slot, MIPI connectors for a camera serial
 Image of Google Coral Camera + MIPI to HDMI Adapter:
 
 ![](../.gitbook/assets/img_4109.jpeg)
+
+### Google Coral Camera Dimensions
+
+The Google Coral Camera dimensions are 25mm x 25mm, as shown in the tech specs here: 
+
+[https://coral.ai/products/camera/\#description](https://coral.ai/products/camera/#description)
 
 ## Hovergames Interposer Board \(HGI\)
 
