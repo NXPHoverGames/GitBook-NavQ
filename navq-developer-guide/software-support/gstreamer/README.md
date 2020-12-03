@@ -2,6 +2,11 @@
 
 ![](../../../.gitbook/assets/image%20%2829%29.png)
 
+{% hint style="success" %}
+There is an NXP community user guide for gstreamer available here:  
+[https://community.nxp.com/t5/i-MX-Processors-Knowledge-Base/i-MX-8-GStreamer-User-Guide/ta-p/1098942](https://community.nxp.com/t5/i-MX-Processors-Knowledge-Base/i-MX-8-GStreamer-User-Guide/ta-p/1098942)
+{% endhint %}
+
 ### Taking a picture
 
 To take a picture on your NavQ using GStreamer, run the following command:
