@@ -1,4 +1,4 @@
-# ROS/ROS2
+# ROS1
 
 ## ROS on NavQ
 
@@ -10,21 +10,11 @@ ROS on NavQ will allow you to interface with sensors, control your drone using M
 
 ### HoverGames-Demo image
 
-{% hint style="info" %}
-HoverGames participants running the included Demo image should follow these steps.
-{% endhint %}
-
-#### ROS 1 Install Guide \(Noetic\)
-
 {% hint style="warning" %}
 When you install ROS Noetic on your NavQ, make sure to install the base version of ROS and not the desktop version. If you install the desktop version, critical gstreamer packages for NavQ can be overwritten and therefore become non-functional.
 {% endhint %}
 
 To install ROS, you need to be on the Demo image. You can follow the guide for installing ROS Noetic Ninjemys at [http://wiki.ros.org/noetic/Installation/Ubuntu](http://wiki.ros.org/noetic/Installation/Ubuntu)
-
-#### ROS 2 Install Guide \(Foxy\)
-
-To install ROS2,  you'll also need to be on the Demo image. You can follow the guide for installing ROS 2 Foxy Fitzroy at [https://index.ros.org/doc/ros2/Installation/Foxy/](https://index.ros.org/doc/ros2/Installation/Foxy/)
 
 ### HoverGames-BSP image
 

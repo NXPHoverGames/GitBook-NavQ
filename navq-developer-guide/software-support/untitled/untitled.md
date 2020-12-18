@@ -1,8 +1,4 @@
----
-description: (WORK IN PROGRESS)
----
-
-# Controlling your drone using NavQ
+# Controlling your drone from NavQ using MAVROS
 
 ## MAVLink / MAVROS
 
