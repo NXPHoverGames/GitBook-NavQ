@@ -53,6 +53,7 @@
   * [ROS2](navq-developer-guide/software-support/installing-ros2-foxy/README.md)
     * [Building and Installing FastRTPS for ROS2 communication to FMU](navq-developer-guide/software-support/installing-ros2-foxy/building-and-installing-fastrtps-for-ros2-communication-to-fmu.md)
     * [Auto-start microRTPS client/agent on FMU/NavQ](navq-developer-guide/software-support/installing-ros2-foxy/autostart-micrortps-client-via-systemd-on-navq.md)
+    * [Detecting AprilTags with ROS2](navq-developer-guide/software-support/installing-ros2-foxy/detecting-apriltags-with-ros2.md)
   * [GStreamer](navq-developer-guide/software-support/gstreamer/README.md)
     * [Streaming Video to QGroundControl using NavQ over WiFi](navq-developer-guide/software-support/gstreamer/streaming-video-to-qgroundcontrol-using-navq-over-wifi.md)
     * [Ad-Hoc Streaming using Mobile Hotspot](navq-developer-guide/software-support/gstreamer/ad-hoc-streaming-using-mobile-hotspot.md)
