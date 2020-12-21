@@ -81,7 +81,7 @@ $ cd apriltag_msgs
 $ colcon build
 ```
 
-Make sure to source the install/setup.bash file so that apriltag\_msgs can see it when being built.
+Make sure to source the install/setup.bash file so that `apriltag_msgs` can see it when being built.
 
 ### Building the apriltag\_ros node
 
@@ -93,7 +93,7 @@ $ git clone https://github.com/christianrauch/apriltag_ros
 
 To make his repo work with ROS2 Foxy, you will need to make a small change in the CMakeLists.txt file. Go to line 26 in that file and delete the `apriltag::` token in the `AprilTagNode apriltag::apriltag` part.
 
-Next, you'll want to save that file and run `colcon build` in the apriltag\_ros folder. Once it is done building, you'll want to source the install/setup.bash file. Add this line to your .bashrc:
+Next, you'll want to save that file and run `colcon build` in the apriltag\_ros folder. Once it is done building, you'll want to source the `install/setup.bash` file. Add this line to your `.bashrc`:
 
 ```text
 source /home/navq/<apriltag_ros folder>/install/setup.bash
@@ -101,13 +101,13 @@ source /home/navq/<apriltag_ros folder>/install/setup.bash
 
 ### Creating a new package to concatenate camera information to each camera frame
 
-In order to make the apriltag\_ros node work, we need to make sure that camera info messages are being sent in sync with each camera frame published by the image\_tools `cam2image` node. We have written an example node that does just that. You can download it here:
+In order to make the `apriltag_ros` node work, we need to make sure that camera info messages are being sent in sync with each camera frame published by the `cam2image` node. We have written an example node that does just that. You can download it here:
 
 {% hint style="info" %}
 Coming soon
 {% endhint %}
 
-You will need to replace the matricies in the node file to match your camera calibration parameters. Once you have done that, make sure to build and install the node and source the install/setup.bash file.
+You will need to replace the matricies in the node file to match your camera calibration parameters. Once you have done that, make sure to build and install the node and source the `install/setup.bash` file.
 
 
 
