@@ -44,7 +44,7 @@ ros-foxy-camera-info-manager \
 ros-foxy-launch-testing-ament-cmake 
 ```
 
-Once that is finished, move on to the next step
+Once that is finished, move on to the next step.
 
 ## Calibrating the camera
 
@@ -62,7 +62,7 @@ Have your printed checkerboard ready in a well lit environment and run the camer
 
 ```text
 # Start publishing camera images to ROS2 topic /camera/image_raw
-$ ros2 run image_tools cam2image --ros-args -p device_id:=0 -p width:=640 -p height:=480 > /dev/null 2>&1 &
+$ ros2 run image_tools cam2image --ros-args -p device_id:=0 -p width:=640 -p height:=480 -r /image:=/camera/image_raw > /dev/null 2>&1 &
 # Start the camera calibration software
 $ ros2 run camera_calibration cameracalibrator --size 7x9 --square 0.02
 ```
