@@ -71,9 +71,21 @@ Now use the link in the note above to run through calibarating the camera.
 
 ## Detecting AprilTags
 
+### Building apriltag\_msgs
+
+A prerequisite for the `apriltag_ros` node is `apriltag_msgs`. Clone the repo and build it by running these commands:
+
+```text
+$ git clone https://github.com/christianrauch/apriltag_msgs
+$ cd apriltag_msgs
+$ colcon build
+```
+
+Make sure to source the install/setup.bash file so that apriltag\_msgs can see it when being built.
+
 ### Building the apriltag\_ros node
 
-First, in order to detect AprilTags, we need to build the apriltag\_ros node written by christianrauch. You can clone his repository by using this git repo:
+First, in order to detect AprilTags, we need to build the `apriltag_ros` node written by christianrauch. You can clone his repository by using this git repo:
 
 ```text
 $ git clone https://github.com/christianrauch/apriltag_ros
