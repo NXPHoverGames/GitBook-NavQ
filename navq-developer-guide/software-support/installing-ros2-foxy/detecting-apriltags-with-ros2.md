@@ -1,6 +1,14 @@
+---
+description: '[WORK IN PROGRESS]'
+---
+
 # Detecting AprilTags with ROS2
 
 ## Overview
+
+{% hint style="danger" %}
+NOTE: This guide is currently a work in progress. Some details may not be finished. 
+{% endhint %}
 
 In this section, we will guide you through the process needed to detect AprilTags on your NavQ. There are a few things that need to be done to accomplish this:
 
