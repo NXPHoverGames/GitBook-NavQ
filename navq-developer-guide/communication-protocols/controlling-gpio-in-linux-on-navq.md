@@ -61,8 +61,30 @@ $ sudo cat /sys/class/gpio/gpio12/value
 
 ## Controlling GPIO programmatically \(in C\)
 
+### Prerequisites
+
+1. Create new group called `gpio` 
+
+```text
+$ sudo groupadd gpio
+$ sudo usermod -aG gpio navq
+```
+
+  2. Create new udev rules file
+
+Create a file at /etc/udev/rules.d/99-gpio.rules and add the following to it:
+
+```text
+SUBSYSTEM=="gpio", KERNEL=="gpiochip*", ACTION=="add", PROGRAM="/bin/sh -c 'chown root:gpio /sys/class/gpio/export /sys/class/gpio/unexport ; chmod 220 /sys/class/gpio/export /sys/class/gpio/unexport'"
+SUBSYSTEM=="gpio", KERNEL=="gpio*", ACTION=="add", PROGRAM="/bin/sh -c 'chown root:gpio /sys%p/active_low /sys%p/direction /sys%p/edge /sys%p/value ; chmod 660 /sys%p/active_low /sys%p/direction /sys%p/edge /sys%p/value'"
+```
+
+This will allow you to access the GPIO pseudofiles without being root.
+
+### Source Code
+
 {% hint style="info" %}
-Coming soon
+Source code coming soon
 {% endhint %}
 
 
