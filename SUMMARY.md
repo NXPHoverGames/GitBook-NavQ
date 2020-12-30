@@ -45,6 +45,7 @@
   * [SPI](navq-developer-guide/communication-protocols/spi.md)
   * [I2C](navq-developer-guide/communication-protocols/i2c/README.md)
     * [Battery LED w/ Teensy LC](navq-developer-guide/communication-protocols/i2c/battery-led-w-teensy-lc.md)
+  * [PWM \(Onboard RGB LED\)](navq-developer-guide/communication-protocols/pwm-onboard-rgb-led.md)
   * [CAN](navq-developer-guide/communication-protocols/can-communication.md)
 * [Software Support](navq-developer-guide/software-support/README.md)
   * [Package Management](navq-developer-guide/software-support/package-management.md)
