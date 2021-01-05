@@ -56,7 +56,9 @@ To enable the RDDRONE-FMUK66 mavlink telemetry via UDP sending to a specific IP 
 {% endhint %}
 
 ```text
+set +e
 mavlink start -x -u 14551 -o 14551 -r 200000 -t 10.0.0.3 -m onboard
+set -e
 ```
 
 In the example configuration above, 10.0.0.3 is the IP address of NavQ on the vehicle.  
