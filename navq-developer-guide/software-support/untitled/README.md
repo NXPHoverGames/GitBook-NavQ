@@ -6,6 +6,10 @@
 
 ROS on NavQ will allow you to interface with sensors, control your drone using MAVROS, and more. To get started, follow the install guide below and then continue to the next sections.
 
+{% hint style="info" %}
+**NOTE: ROS1 support is good, but the Mobile Robotics team at NXP's focus is on ROS2. There is a lot more documentation on ROS1 than ROS2, but ROS2 may be easier to use in the long run. We suggest that you do not cross-polinate with ROS, i.e. only use ROS1 or ROS2, not both. Keep in mind that any documentation under the ROS1 section is for ROS1 only, and vice versa.**
+{% endhint %}
+
 ## Install guide by OS
 
 ### HoverGames-Demo image

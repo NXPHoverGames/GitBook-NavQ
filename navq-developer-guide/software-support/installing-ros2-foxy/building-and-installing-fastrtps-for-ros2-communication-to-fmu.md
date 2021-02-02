@@ -4,7 +4,17 @@
 
 FastRTPS and the microRTPS agent are needed on NavQ in order to bridge uORB topics from PX4 to ROS2 on NavQ over a UART or UDP connection. Follow the guide below to build and install these packages.
 
-## Installing FastRTPS and 'px4\_ros\_com' on NavQ
+{% hint style="info" %}
+**NOTE: FastRTPS and PX4 ROS Com work differently from MAVROS \(ROS1\). PX4 ROS Com subscribes to uORB topics rather than MAVLINK messages. See below for a diagram of how microRTPS and PX4 ROS Com works.**
+{% endhint %}
+
+![](../../../.gitbook/assets/image%20%2860%29.png)
+
+Follow the link below for more details on microRTPS and PX4 ROS Com:
+
+{% embed url="https://docs.px4.io/master/en/middleware/micrortps.html" %}
+
+## Installing FastRTPS and PX4 ROS Com on NavQ
 
 ### Prerequisites
 

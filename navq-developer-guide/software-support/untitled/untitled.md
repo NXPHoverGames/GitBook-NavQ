@@ -6,6 +6,10 @@
 
 The 8MMNavQ can control your HoverGames drone by communicating with the RDDRONE-FMUK66 over MAVROS. A UART cable will be included in the kit that connects the UART3 port on the 8MMNavQ to the TELEM2 port on the RDDRONE-FMUK66.
 
+{% hint style="info" %}
+**NOTE: This page is for ROS1 only. MAVLINK and MAVROS are deprecated for ROS2 applications. ROS2 uses microRTPS and PX4 ROS Com in place of MAVROS.**
+{% endhint %}
+
 {% hint style="danger" %}
 **NOTICE**: When running the off-board script, make sure that you confirm the landing zone for your drone in QGroundControl. The local position parameter in the offboard ROS node is set to x:0, y:0, z:2, which means it will hover at 2 meters above its landing zone. If the drone takes off from a position away from its landing zone, it will _quickly_ return to its landing zone and hover 2 meters above it. This is especially important to note if you turn the drone on indoors and then place it somewhere outside to take off. We don't want your drone to smack into a building!
 {% endhint %}
