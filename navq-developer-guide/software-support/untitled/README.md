@@ -14,6 +14,10 @@ ROS on NavQ will allow you to interface with sensors, control your drone using M
 
 ### HoverGames-Demo image
 
+{% hint style="info" %}
+NOTE: HoverGames participants should be using the Demo image. If you flashed your NavQ with the image from the HoverGames website, or if you're using the image that came installed on the SD Card included in your kit, you're using the Demo image. 
+{% endhint %}
+
 {% hint style="warning" %}
 When you install ROS Noetic on your NavQ, make sure to install the base version of ROS and not the desktop version. If you install the desktop version, critical gstreamer packages for NavQ can be overwritten and therefore become non-functional.
 {% endhint %}
