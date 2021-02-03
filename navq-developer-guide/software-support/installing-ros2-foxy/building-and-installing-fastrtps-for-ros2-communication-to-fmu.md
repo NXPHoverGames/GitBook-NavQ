@@ -56,10 +56,10 @@ Next, we will build and install the necessary software that will allow us to use
 
 ```text
 $ cd ~/
-~$ mkdir -p ~/ros2src/px4_ros_com_ros2/src
+~$ mkdir -p ~/px4_ros_com_ros2/src
 
-~$ git clone https://github.com/PX4/px4_ros_com.git ~/ros2src/px4_ros_com_ros2/src/px4_ros_com
-~$ git clone https://github.com/PX4/px4_msgs.git ~/ros2src/px4_ros_com_ros2/src/px4_msgs
+~$ git clone https://github.com/PX4/px4_ros_com.git ~/px4_ros_com_ros2/src/px4_ros_com
+~$ git clone https://github.com/PX4/px4_msgs.git ~/px4_ros_com_ros2/src/px4_msgs
 ```
 
 {% hint style="danger" %}
@@ -86,7 +86,7 @@ This will take a long time to build on NavQ. In our experience, it takes anywher
 {% endhint %}
 
 ```text
-~$ ./ros2src/px4_ros_com_ros2/src/px4_ros_com/scripts/build_ros2_workspace.bash
+~$ ./px4_ros_com_ros2/src/px4_ros_com/scripts/build_ros2_workspace.bash
 ```
 
 ### Sourcing ROS2 bash files
@@ -95,7 +95,7 @@ In order to run all of your specific ROS2 software successfully, you must source
 
 ```text
 source /opt/ros/foxy/setup.bash
-source ~/ros2src/px4_ros_com_ros2/install/setup.bash
+source ~/px4_ros_com_ros2/install/setup.bash
 ```
 
 ## Next steps
