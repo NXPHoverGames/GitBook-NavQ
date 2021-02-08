@@ -103,11 +103,19 @@ source /home/navq/<apriltag_ros folder>/install/setup.bash
 
 In order to make the `apriltag_ros` node work, we need to make sure that camera info messages are being sent in sync with each camera frame published by the `cam2image` node. We have written an example node that does just that. You can download it here:
 
-{% hint style="info" %}
-Coming soon
-{% endhint %}
+{% file src="../../../.gitbook/assets/py\_pysub.zip" caption="Full Camera Republish Node Workspace" %}
 
-You will need to replace the matricies in the node file to match your camera calibration parameters. Once you have done that, make sure to build and install the node and source the `install/setup.bash` file.
+You will need to replace the matrices in the node file to match your camera calibration parameters. The source file is located at `pypysub/py_pysub/publisher_member_function.py`. Once you have done that, make sure to build and install the node and source the `install/setup.bash` file.
+
+### Running the code
+
+To run the code, you'll need to run the following ROS nodes:
+
+```text
+$ ros2 run image_tools cam2image --ros-args -p device_id:=0 -p width:=640 -p height:=480 -r /image:=/camera_image > /dev/null 2>&1 &
+$ ros2 run py_pysub talker > /dev/null 2>&1 &
+$ ros2 launch apriltag_ros tag_16h5_all.launch.py --ros-args -p image_transport:=raw > apriltag_log.txt 2>&1 &
+```
 
 
 
