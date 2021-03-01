@@ -43,6 +43,7 @@ First, we will install the FastRTPS project from eProsima. Use the following com
 cd ~/src
 ~/src$ git clone --recursive https://github.com/eProsima/Fast-RTPS-Gen.git -b v1.0.4 Fast-RTPS-Gen
 ~/src$ cd Fast-RTPS-Gen
+~/src$ unset TERM
 ~/src/Fast-RTPS-Gen$ ./gradlew assemble
 ~/src/Fast-RTPS-Gen$ sudo su
 ~/src/Fast-RTPS-Gen# ./gradlew install
