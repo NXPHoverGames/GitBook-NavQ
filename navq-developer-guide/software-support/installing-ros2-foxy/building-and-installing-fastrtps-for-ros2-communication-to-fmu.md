@@ -46,6 +46,7 @@ cd ~/src
 ~/src$ unset TERM
 ~/src/Fast-RTPS-Gen$ ./gradlew assemble
 ~/src/Fast-RTPS-Gen$ sudo su
+~/src/Fast-RTPS-Gen$ unset TERM
 ~/src/Fast-RTPS-Gen# ./gradlew install
 ~/src/Fast-RTPS-Gen# exit
 ~/src/Fast-RTPS-Gen$
