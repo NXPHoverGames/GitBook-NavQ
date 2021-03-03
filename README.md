@@ -1,7 +1,7 @@
 ---
 description: >-
   Introducing the RDDRONE-8MMNavQ "NavQ" Linux companion computer platform with
-  Vision for Mobile Robotics based on NXP i.MX 8M Mini SOC.
+  Vision for Mobile Robotics based on NXP i.MX 8M Mini SOC. Found at": https://nxp.gitbook.io/8mmnavq/
 ---
 
 # NavQ
