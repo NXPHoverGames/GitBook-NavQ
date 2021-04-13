@@ -12,6 +12,12 @@ Now you may be wondering, "Well Twitch Plays isn't controlling a robot, that's a
 
 Remo.TV is a website where anyone can log in and control robots over the internet. With NavQ, your family and friends can easily control your HoverGames Drone or NXP Cup Rover through Remo.TV. Below we have written a guide for you to set up your drone or rover with the service.
 
+{% hint style="warning" %}
+This guide is written for an NXP Cup Car with PX4. You can follow this guide for other robots, but you will need to create your own hardware file to work with your setup. To do this, follow Remo.TV's documentation. You can start by visiting the front page of their website:
+{% endhint %}
+
+{% embed url="https://remo.tv" %}
+
 ## Setting up Remo.TV on NavQ
 
 ### Dependencies and repos
@@ -52,4 +58,32 @@ $ cp controller.sample.conf controller.conf
 And your RemoTV is cloned and ready for configuration! Next we will set up our configuration file.
 
 ### Configurating the Configuration
+
+To get Remo.TV to work on your robot, you'll need to set up the configuration file to work with NavQ. Open the controller.conf file that we copied earlier for editing. Below you will see each field that needs to be edited for the configuration file.
+
+### \[robot\] Section
+
+| Config field | Value |
+| :--- | :--- |
+| owner= | Set this as your Remo.TV username. |
+| robot\_key= | Set this as your Remo.TV API key.  |
+| type= | navq |
+
+### \[camera\] Section
+
+| Config field | Value |
+| :--- | :--- |
+| x\_res= | 640 |
+| y\_res= | 480 |
+| video\_framerate= | 30 |
+
+## Running the Remo.TV controller
+
+Once you have set up the software, you can run the controller by going into the `controller` directory and running:
+
+```text
+$ python3 controller.py
+```
+
+Your robot should start streaming to Remo.TV!
 
