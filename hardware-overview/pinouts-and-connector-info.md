@@ -4,7 +4,7 @@
 
 The HoverGames Interposer Board has a large amount of connectors and I/O for you to connect your devices, sensors, switches, LEDs, and more. This section will give you an overview of the connector pinouts on the HGI. The picture below has a few silkscreen labels for pinouts on each connector, but some connectors have multiplexers to make them more flexible.
 
-![Overview of the HoverGames Interposer Board](../.gitbook/assets/image%20%2821%29.png)
+![Overview of the HoverGames Interposer Board](../.gitbook/assets/image%20%2828%29.png)
 
 ## UART2
 
@@ -28,7 +28,7 @@ The UART4 port on this connector is tied to the ARM Cortex-M4 core. It is not av
 
 The UART4 pins do not have flow control on this connector. There is no multiplexing on this connector as well. The pinout is below.
 
-![](../.gitbook/assets/image%20%2822%29.png)
+![](../.gitbook/assets/image%20%2846%29.png)
 
 ### Linux GPIO Pin IDs
 

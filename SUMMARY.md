@@ -62,6 +62,7 @@
   * [OpenCV](navq-developer-guide/software-support/opencv.md)
   * [pyeIQ](navq-developer-guide/software-support/pyeiq.md)
   * [Gazebo](navq-developer-guide/software-support/gazebo.md)
+* [Telerobotics with NavQ and Remo.TV](navq-developer-guide/telerobotics-with-navq-and-remo.tv.md)
 
 ---
 

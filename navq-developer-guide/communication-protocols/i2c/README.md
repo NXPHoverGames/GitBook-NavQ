@@ -50,7 +50,7 @@ NOTE: For the I2C connector, you'll need the 9-pin JST-GH connector.
 In the hardware overview \(link here: [Hardware Overview](../../../hardware-overview/)\), you can see the pinout for the I2C connector. Here is another screenshot of it:  
 
 
-![I2C JST-GH connector](../../../.gitbook/assets/image%20%2846%29.png)
+![I2C JST-GH connector](../../../.gitbook/assets/image%20%2846%29%20%281%29.png)
 
 The 5VP pin is on the left-most side of the connector, and GND is on the right-most side. I2C2\_SDA is pin 4, and I2C2\_SCL is pin 5. The JST-GH connector is positioned with the retention clip facing away from you when you are determining the left/right sides.
 

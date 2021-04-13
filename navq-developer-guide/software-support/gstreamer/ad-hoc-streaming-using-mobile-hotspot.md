@@ -36,7 +36,7 @@ At the next window, it will ask you to specify the program you are adding a rule
 %ProgramFiles%\QGroundControl\QGroundControl.exe
 ```
 
-![](../../../.gitbook/assets/image%20%2852%29.png)
+![](../../../.gitbook/assets/image%20%2852%29%20%281%29.png)
 
 Once you've done this, you can click "Next" through the rest of the fields and you should be good to go.
 
