@@ -77,6 +77,50 @@ To get Remo.TV to work on your robot, you'll need to set up the configuration fi
 | y\_res= | 480 |
 | video\_framerate= | 30 |
 
+## Setting up controls on Remo.TV
+
+Log into your Remo.TV account and go to your robot. The screen should look like this:
+
+![](../.gitbook/assets/image%20%2821%29.png)
+
+At the bottom, there is a movement tab. For the NXP Cup car, you'll want to press the \(edit buttons\) text and paste this code into that window:
+
+```text
+[
+  {
+    "break": "line",
+    "label": "movement"
+  },
+  {
+    "label": "forward",
+    "command": "f",
+    "hot_key": "w"
+  },
+  {
+    "label": "stop",
+    "command": "s",
+    "hot_key": "s"
+  },
+  {
+    "label": "reverse",
+    "command": "x",
+    "hot_key": "x"
+  },
+  {
+    "label": "left",
+    "command": "l",
+    "hot_key": "a"
+  },
+  {
+    "label": "right",
+    "command": "r",
+    "hot_key": "d"
+  }
+]
+```
+
+This will set up your controls to be compatible with the example navq hardware file.
+
 ## Running the Remo.TV controller
 
 Once you have set up the software, you can run the controller by going into the `controller` directory and running:
