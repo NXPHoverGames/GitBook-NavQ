@@ -4,6 +4,8 @@ description: 100BaseT1 2-Wire Automotive Ethernet media converter
 
 # RDDRONE-T1ADAPT
 
+
+
 ![RDDRONE-T1ADAPT TOP view](../.gitbook/assets/image%20%2814%29.png)
 
 ![RDDRONE-T1ADAPT Bottom view - USB-C alternative power input connector](../.gitbook/assets/image%20%2815%29.png)
