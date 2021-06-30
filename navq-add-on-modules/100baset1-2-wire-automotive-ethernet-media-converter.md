@@ -8,6 +8,11 @@ description: 100BaseT1 2-Wire Automotive Ethernet media converter
 
 ![RDDRONE-T1ADAPT Bottom view - USB-C alternative power input connector](../.gitbook/assets/image%20%2815%29.png)
 
+{% hint style="success" %}
+Additional RDDRONE-T1ADAPT media converter details can be found here:  
+[https://nxp.gitbook.io/rddrone-t1adapt/](https://nxp.gitbook.io/rddrone-t1adapt/)
+{% endhint %}
+
 ### TJA110x 2-Wire Ethernet
 
 NXP's TJA1101 is an Ethernet PHY that provides a two-wire 100BaseT1 Ethernet interface. The Ethernet MAC side of this interface is not unusual, and the traffic on the line is "regular Ethernet"
