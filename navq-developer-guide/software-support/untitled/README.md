@@ -2,7 +2,7 @@
 
 ## ROS on NavQ
 
-![](../../../.gitbook/assets/image%20%2818%29.png)
+![](<../../../.gitbook/assets/image (16).png>)
 
 ROS on NavQ will allow you to interface with sensors, control your drone using MAVROS, and more. To get started, follow the install guide below and then continue to the next sections.
 
@@ -15,7 +15,7 @@ ROS on NavQ will allow you to interface with sensors, control your drone using M
 ### HoverGames-Demo image
 
 {% hint style="info" %}
-NOTE: HoverGames participants should be using the Demo image. If you flashed your NavQ with the image from the HoverGames website, or if you're using the image that came installed on the SD Card included in your kit, you're using the Demo image. 
+NOTE: HoverGames participants should be using the Demo image. If you flashed your NavQ with the image from the HoverGames website, or if you're using the image that came installed on the SD Card included in your kit, you're using the Demo image.&#x20;
 {% endhint %}
 
 {% hint style="warning" %}
@@ -34,7 +34,7 @@ ROS Melodic is automatically installed on the HoverGames-BSP image. It includes 
 
 Run the following commands to enable ROS on the HoverGames-BSP image:
 
-```text
+```
 $ sudo rosdep init
 $ rosdep update
 $ source /opt/ros/melodic/setup.bash
@@ -44,11 +44,10 @@ $ source ~/.bashrc
 
 You'll also want to download the following script and run it to install GPS geoids:
 
-```text
+```
 $ wget https://raw.githubusercontent.com/mavlink/mavros/master/mavros/scripts/install_geographiclib_datasets.sh
 $ chmod a+x ./install_geographiclib_datasets.sh
 $ ./install_geographiclib_datasets.sh
 ```
 
 Now, you can continue with the ROS tutorials for setting up a build environment and installing your first package. We will go over this in the [next section](untitled.md).
-

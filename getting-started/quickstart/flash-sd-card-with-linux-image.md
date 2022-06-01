@@ -8,7 +8,7 @@ The HoverGames images come as a .bz2 compressed archive. To decompress this imag
 
 ### Downloading UUU
 
-NXP has a tool for flashing i.MX hardware called UUU \(Universal Update Utility\). You can download UUU from here:
+NXP has a tool for flashing i.MX hardware called UUU (Universal Update Utility). You can download UUU from here:
 
 {% hint style="info" %}
 It is recommended to download the "Latest Release", not the "Pre-Release" at the top of the page.
@@ -30,13 +30,13 @@ You must agree to all of the applicable licenses and agreements at the following
 NOTE: This file is only needed for flashing with UUU to the eMMC/SD Card. If you want to flash your SD Card with dd or Win32DiskImager, this file is not needed.
 {% endhint %}
 
-{% embed url="https://drive.google.com/file/d/1AYRxy-okiu8\_9\_9EmC5DWbCq-hZk2PKw/view?usp=sharing" %}
+{% embed url="https://drive.google.com/file/d/1AYRxy-okiu8_9_9EmC5DWbCq-hZk2PKw/view?usp=sharing" %}
 
 ### Step 1
 
-Flip the DIP switches on your NavQ to put it into USB flashing mode \(boot from USB in the image below\). Here is an image that shows how to do so:
+Flip the DIP switches on your NavQ to put it into USB flashing mode (boot from USB in the image below). Here is an image that shows how to do so:
 
-![](../../.gitbook/assets/image%20%2844%29.png)
+![](<../../.gitbook/assets/image (43).png>)
 
 {% hint style="info" %}
 Once you're done flashing, you can use this image to select the boot mode: eMMC or SD card.
@@ -46,7 +46,7 @@ Once you're done flashing, you can use this image to select the boot mode: eMMC 
 
 Connect your NavQ using the included USB-C cable to your computer. You should recieve a message on your computer that it has been connected. To make sure the NavQ is connected, you can run the UUU program with the `-lsusb` flag and you should see an output similar to this:
 
-```text
+```
 Linux
 -----
 $ ./uuu -lsusb
@@ -73,7 +73,7 @@ You can flash both the SD card and the eMMC using this tool. The keyword for fla
 There are advantages and disadvantages to each storage medium. eMMC is faster, but is locked to 16GB size and is non-removable. SD cards can be of any size you like and are removable, but they are quite a bit slower.
 {% endhint %}
 
-```text
+```
 Linux
 -----
 $ ./uuu -b [emmc_all|sd_all] <.bin-flash_navq> <.wic.bz2 OR .img>
@@ -87,7 +87,7 @@ After a few moments, your board should be flashed. Unplug your NavQ from power, 
 
 ## Flashing the image to SD card using dd or Win32DiskImager
 
-To flash the image, you'll need to use `dd` on Linux/Mac or `Win32DiskImager` on Windows. 
+To flash the image, you'll need to use `dd` on Linux/Mac or `Win32DiskImager` on Windows.&#x20;
 
 ### Linux
 
@@ -95,7 +95,7 @@ To flash the image, you'll need to use `dd` on Linux/Mac or `Win32DiskImager` on
 Replace the X in "/dev/sdX" with the letter of your SD card in linux. You can use a program like "GParted" or "Disks" to find the letter of your SD card.
 {% endhint %}
 
-```text
+```
 $ sudo dd if=<path to .wic file> of=/dev/sdX bs=1M status=progress
 ```
 
@@ -105,7 +105,7 @@ $ sudo dd if=<path to .wic file> of=/dev/sdX bs=1M status=progress
 Replace the X in "/dev/rdiskX" with the number of your SD card in Mac. You can use `diskutil list` to find the number of your SD Card.
 {% endhint %}
 
-```text
+```
 $ sudo diskutil unmountDisk /dev/rdiskX
 $ sudo dd if=<path to .wic file> of=/dev/rdiskX bs=1m
 ```
@@ -121,4 +121,3 @@ Currently the HoverGames-Demo Linux image is packaged as a .img file. In future 
 {% endhint %}
 
 Open the program and select your SD card. Choose the .wic OR .img file, then click "Write".
-

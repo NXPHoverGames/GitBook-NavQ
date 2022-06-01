@@ -12,10 +12,10 @@ In this guide, we need a few things:
 
 ### Setting up QGroundControl
 
-In QGroundControl, click the Q logo in the top left, and configure the video section as seen in the image below:  
+In QGroundControl, click the Q logo in the top left, and configure the video section as seen in the image below:\
 
 
-![](../../../.gitbook/assets/image%20%2842%29.png)
+![](<../../../.gitbook/assets/image (38).png>)
 
 This will set up your QGroundControl instance to receive the UDP video stream from the NavQ.
 
@@ -23,7 +23,7 @@ This will set up your QGroundControl instance to receive the UDP video stream fr
 
 Follow the WiFi setup guide using `connman` in the Quick Start guide to connect your NavQ to the same router as your mobile device. You will need to use the serial console to do this. Once you have your NavQ connected, you can run `ifconfig` in the serial console to find the IP address of your NavQ.
 
-![Your IP address should be next to &apos;inet&apos; under &apos;wlan0&apos; if connected over WiFi.](../../../.gitbook/assets/image%20%2839%29.png)
+![Your IP address should be next to 'inet' under 'wlan0' if connected over WiFi.](<../../../.gitbook/assets/image (41).png>)
 
 You can SSH into the NavQ to run the GStreamer pipeline once you have the IP.
 
@@ -31,13 +31,13 @@ You can SSH into the NavQ to run the GStreamer pipeline once you have the IP.
 
 With your NavQ on, SSH into it by using the IP address you noted when connected to the serial console. Once you're successfully SSHed in, you should note the IP address that you logged in from as seen here:
 
-![](../../../.gitbook/assets/image%20%2838%29.png)
+![](<../../../.gitbook/assets/image (39).png>)
 
 This is the IP of your computer that you should be sending the video stream to.
 
 To run the GStreamer pipeline, run the following command:
 
-```text
+```
 $ sudo gst-launch-1.0 v4l2src ! video/x-raw,width=640,height=480,framerate=30/1 ! vpuenc_h264 bitrate=500 ! rtph264pay ! udpsink host=xxx.xxx.xxx.xxx port=5600 sync=false
 ```
 
@@ -47,5 +47,4 @@ Make sure to replace the 'xxx.xxx.xxx.xxx' with the IP you noted when first SSHi
 
 Once you run that command, you should be able to see the video stream from your NavQ on QGroundControl!
 
-![NavQ Streaming over UDP to QGroundControl](../../../.gitbook/assets/image%20%2843%29.png)
-
+![NavQ Streaming over UDP to QGroundControl](<../../../.gitbook/assets/image (42).png>)

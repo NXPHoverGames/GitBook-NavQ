@@ -6,7 +6,7 @@ description: '[WORK IN PROGRESS]'
 
 ## What is telerobotics?
 
-Telerobotics is a platform in which robots can be controlled over the internet. A good example of this is Twitch Plays. Twitch Plays allows users to play games on a stream by giving commands through Twitch Chat. 
+Telerobotics is a platform in which robots can be controlled over the internet. A good example of this is Twitch Plays. Twitch Plays allows users to play games on a stream by giving commands through Twitch Chat.&#x20;
 
 Now you may be wondering, "Well Twitch Plays isn't controlling a robot, that's a video game!" and you'd be correct. There is an alternative for robotics though! It's called Remo.TV, and we have written a module for the NavQ to be supported on the site.
 
@@ -30,7 +30,7 @@ The steps below come from the README on the official remotv GitHub repository: [
 
 Install dependencies:
 
-```text
+```
 $ sudo apt update
 $ sudo apt upgrade -y
 $ sudo apt install ffmpeg python-serial python-dev libgnutls28-dev espeak python-smbus python-pip git
@@ -38,19 +38,19 @@ $ sudo apt install ffmpeg python-serial python-dev libgnutls28-dev espeak python
 
 Download RemoTV from GitHub:
 
-```text
+```
 $ git clone https://github.com/remotv/controller.git ~/remotv
 ```
 
 Install Python dependencies:
 
-```text
+```
 $ sudo python -m pip install -r ~/remotv/requirements.txt
 ```
 
 Open RemoTV and copy the sample config file:
 
-```text
+```
 $ cd remotv
 $ cp controller.sample.conf controller.conf
 ```
@@ -61,31 +61,31 @@ And your RemoTV is cloned and ready for configuration! Next we will set up our c
 
 To get Remo.TV to work on your robot, you'll need to set up the configuration file to work with NavQ. Open the controller.conf file that we copied earlier for editing. Below you will see each field that needs to be edited for the configuration file.
 
-### \[robot\] Section
+### \[robot] Section
 
-| Config field | Value |
-| :--- | :--- |
-| owner= | Set this as your Remo.TV username. |
-| robot\_key= | Set this as your Remo.TV API key.  |
-| type= | navq |
+| Config field | Value                              |
+| ------------ | ---------------------------------- |
+| owner=       | Set this as your Remo.TV username. |
+| robot\_key=  | Set this as your Remo.TV API key.  |
+| type=        | navq                               |
 
-### \[camera\] Section
+### \[camera] Section
 
-| Config field | Value |
-| :--- | :--- |
-| x\_res= | 640 |
-| y\_res= | 480 |
-| video\_framerate= | 30 |
+| Config field      | Value |
+| ----------------- | ----- |
+| x\_res=           | 640   |
+| y\_res=           | 480   |
+| video\_framerate= | 30    |
 
 ## Setting up controls on Remo.TV
 
 Log into your Remo.TV account and go to your robot. The screen should look like this:
 
-![](../.gitbook/assets/image%20%2821%29.png)
+![](<../.gitbook/assets/image (60).png>)
 
-At the bottom, there is a movement tab. For the NXP Cup car, you'll want to press the \(edit buttons\) text and paste this code into that window:
+At the bottom, there is a movement tab. For the NXP Cup car, you'll want to press the (edit buttons) text and paste this code into that window:
 
-```text
+```
 [
   {
     "break": "line",
@@ -125,9 +125,8 @@ This will set up your controls to be compatible with the example navq hardware f
 
 Once you have set up the software, you can run the controller by going into the `controller` directory and running:
 
-```text
+```
 $ python3 controller.py
 ```
 
 Your robot should start streaming to Remo.TV!
-

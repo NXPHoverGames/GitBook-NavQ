@@ -10,7 +10,7 @@ If you're thinking about using the CAN protocol on your drone, this guide will w
 
 Since there isn't a native CAN bus on the NavQ, we can use a protocol called SLCAN to communicate CAN messages across a UART connection. We have built a binary for the UCANS32K146 that acts as an SLCAN transfer layer. This means that we can add a CAN bus to NavQ by just connecting the UCANS32K146 to the UART3 port.
 
-![Diagram of setup](../../.gitbook/assets/image%20%2856%29.png)
+![Diagram of setup](<../../.gitbook/assets/image (55).png>)
 
 ## Setting up SLCAN on NavQ
 
@@ -20,7 +20,7 @@ SLCAN support is enabled in the October image coming out this month.
 
 To enable SLCAN on NavQ, run these commands:
 
-```text
+```
 $ sudo modprobe slcan
 $ sudo slcand -o -t sw -s8 /dev/ttymxc2 -S 115200
 $ sudo ip link set up slcan0
@@ -28,7 +28,7 @@ $ sudo ip link set up slcan0
 
 Now you can use SocketCAN or python-can to send and recieve CAN messages over the slcan0 interface. As an example, here is how to send a CAN message from the command line:
 
-```text
+```
 $ cansend slcan0 123#deadbeef
 ```
 
@@ -41,6 +41,4 @@ This binary is not yet available. This page will be updated with a link to the b
 Follow the guide at the link below to flash the SLCAN binary to your UCAN board:
 
 {% embed url="https://nxp.gitbook.io/nxpmobilerobotics/flashing-guide/flashing-hovergames-boards" %}
-
-
 

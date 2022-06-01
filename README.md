@@ -44,7 +44,7 @@ There is a [discussion forum here for questions specifically about NavQ](https:/
 And a general [HoverGames forum](https://community.nxp.com/community/mobilerobotics/hovergames-drone-challenge) here.
 {% endhint %}
 
-![](.gitbook/assets/img\_20200428\_181758.jpg)
+![](.gitbook/assets/IMG\_20200428\_181758.jpg)
 
 The 8MMNavQ features:
 
