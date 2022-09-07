@@ -1,38 +1,41 @@
 ---
 description: >-
-  Introducing the RDDRONE-8MMNavQ "NavQ" Linux companion computer platform with
-  Vision for Mobile Robotics based on NXP i.MX 8M Mini SOC. Found at:
-  https://nxp.gitbook.io/8mmnavq/
+  NavQ Linux companion computer platform with Vision for Mobile Robotics based
+  on NXP i.MX 8M Mini SOC. Found at: https://nxp.gitbook.io/8mmnavq/
 ---
 
 # NavQ
 
-{% hint style="success" %}
-Also take a look at some of our other Gitbooks:
+{% hint style="warning" %}
+NavQ was used in HoverGames2 program and this document is supporting information. However it was not commercialized. The NavQPlus (NavQ+) is the replacement upgraded version of NavQ available on NXP.com and through global distributors.
 
-* [HoverGames](https://app.gitbook.com/o/-L9GLsni4p7csCR7QCJ8/s/-L9GLtb-Tz\_XaKbQu-Al/)
-* [NXP Cup](https://app.gitbook.com/o/-L9GLsni4p7csCR7QCJ8/s/-L9GLtaxrQtBdBRsFIJB/)
-* [8M Plus NavQ](https://app.gitbook.com/o/-L9GLsni4p7csCR7QCJ8/s/-MQsLUVVC7cJOe9aVARC/)
-* [UCANS32K146 UAVCAN/CAN Node](https://app.gitbook.com/o/-L9GLsni4p7csCR7QCJ8/s/-M7FJ\_hQKd8L0MNgduui/)
+Note that some software and information here is still completely relevant to NavQPlus\
+\
+NavQ may also be referred to as: 8MMNavQ, MR-8MMNavQ or RDDRONE-8MMNavQ
 {% endhint %}
 
 ![NavQ Mounted on HoverGames drone](<.gitbook/assets/image (37).png>)
 
 {% hint style="success" %}
-Also have a look at some of the other **NXP GitBooks**:
+Also take a look at some of our other Gitbooks:
 
+* [8M Plus NavQ](https://app.gitbook.com/o/-L9GLsni4p7csCR7QCJ8/s/-MQsLUVVC7cJOe9aVARC/) - newer supported version, available on NXP.com
+* [HoverGames](https://app.gitbook.com/o/-L9GLsni4p7csCR7QCJ8/s/-L9GLtb-Tz\_XaKbQu-Al/) challenges
 * [HoverGames Drone](https://nxp.gitbook.io/hovergames/)
-* [NavQ Companion Computer](https://nxp.gitbook.io/8mmnavq/)
+* [NXP Cup](https://app.gitbook.com/o/-L9GLsni4p7csCR7QCJ8/s/-L9GLtaxrQtBdBRsFIJB/) - car/buggy racing series
+* [UCANS32K146 UAVCAN/CAN Node](https://app.gitbook.com/o/-L9GLsni4p7csCR7QCJ8/s/-M7FJ\_hQKd8L0MNgduui/)
 * [UCANS32K UAVCAN Node](https://nxp.gitbook.io/ucans32k146/)
 * [RDDRONE-BMS772 Battery Management System](https://nxp.gitbook.io/rddrone-bms772/)
-* [D2X Reference Design](https://nxp.gitbook.io/d2x/)
-* [NXP Cup](https://nxp.gitbook.io/nxp-cup-hardware-reference-alamak/)​
+
+
 {% endhint %}
 
 The 8MMNavQ is a small purpose built experimental Linux computer based on the [NXP i.MX 8M Mini SOC](https://www.nxp.com/products/processors-and-microcontrollers/arm-processors/i-mx-applications-processors/i-mx-8-processors:IMX8-SERIES). It is focused on the common needs of Mobile Robotics systems.
 
-The system is built as a stack of boards, the top board being a SOM (system on module) containing the Processor, memory and other components with strict layout requirements, and where the secondary boards are relatively inexpensive (often 4 layer boards) and allows for versions with customization to be easily built.\
-This is a brand new set of boards and software enablement will undergo several iterations. Our intent is to provide a "friendly Linux" with typical packages and additional tools included rather than the typical highly optimized and stripped down Linux found in deeply embedded products.
+The system is built as a stack of boards, the top board being a SOM (system on module) containing the Processor, memory and other components with strict layout requirements, and where the secondary boards are relatively inexpensive (often 4 layer boards) and allows for versions with customization to be easily built.
+
+\
+This is a new set of boards and software enablement and will undergo several iterations. Our intent is to provide a "friendly Linux" with typical packages and additional tools included rather than the typical highly optimized and stripped down Linux found in deeply embedded products.
 
 {% hint style="warning" %}
 Please check for Linux updates regularly. Feedback and needs will be incorporated and updated as much as possible and reasonable.
