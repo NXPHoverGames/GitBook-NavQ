@@ -7,7 +7,7 @@ description: >-
 # NavQ
 
 {% hint style="warning" %}
-NavQ was used in HoverGames2 program and this document is supporting information. However it was not commercialized. The NavQPlus (NavQ+) is the replacement upgraded version of NavQ available on NXP.com and through global distributors.
+NavQ was used in HoverGames2 program and this document is supporting information. However it was not commercialized. The [NavQPlus (NavQ+](https://nxp.gitbook.io/8mpnavq/)) is the replacement upgraded version of NavQ available on NXP.com and through global distributors.
 
 Note that some software and information here is still completely relevant to NavQPlus\
 \
