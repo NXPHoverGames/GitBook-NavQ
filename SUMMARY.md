@@ -41,12 +41,12 @@
 ## NavQ Developer Guide
 
 * [Building a Linux image for NavQ](navq-developer-guide/building-a-linux-image-for-navq.md)
-* [Communication Protocols](navq-developer-guide/communication-protocols/README.md)
+* [Communications Interfaces](navq-developer-guide/communication-protocols/README.md)
   * [GPIO](navq-developer-guide/communication-protocols/controlling-gpio-in-linux-on-navq.md)
   * [SPI](navq-developer-guide/communication-protocols/spi.md)
   * [I2C](navq-developer-guide/communication-protocols/i2c/README.md)
     * [Battery LED w/ Teensy LC](navq-developer-guide/communication-protocols/i2c/battery-led-w-teensy-lc.md)
-  * [PWM \(Onboard RGB LED\)](navq-developer-guide/communication-protocols/pwm-onboard-rgb-led.md)
+  * [PWM (Onboard RGB LED)](navq-developer-guide/communication-protocols/pwm-onboard-rgb-led.md)
   * [CAN](navq-developer-guide/communication-protocols/can-communication.md)
 * [Software Support](navq-developer-guide/software-support/README.md)
   * [Package Management](navq-developer-guide/software-support/package-management.md)
@@ -64,7 +64,7 @@
   * [Gazebo](navq-developer-guide/software-support/gazebo.md)
 * [Telerobotics with NavQ and Remo.TV](navq-developer-guide/telerobotics-with-navq-and-remo.tv.md)
 
----
+***
 
 * [HoverGames Gitbook](https://nxp.gitboook.io/hovergames)
 * [HoverGames](https://www.hovergames.com)
@@ -73,5 +73,4 @@
 
 * [Old Fixes](archive/old-fixes.md)
 * [Developer Quick Start Guide](archive/developer-quick-start-guide.md)
-* [Flashing the NavQ with 18.04 rootfs \(internal\)](archive/flashing-the-navq-with-ubuntu-18.04-rootfs.md)
-
+* [Flashing the NavQ with 18.04 rootfs (internal)](archive/flashing-the-navq-with-ubuntu-18.04-rootfs.md)

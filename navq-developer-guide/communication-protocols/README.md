@@ -1,14 +1,20 @@
-# Communication Protocols
+# Communications Interfaces
 
-There are a few communication protocols supported on NavQ through the JST-GH connectors on the HoverGames Interposer Board. The page links below are guides for each communication protocol.
+There are many communications interfaces supported on NavQ through the JST-GH connectors on the HoverGames Interposer Board. The page links below are guides for each one
 
-{% page-ref page="controlling-gpio-in-linux-on-navq.md" %}
+{% content-ref url="controlling-gpio-in-linux-on-navq.md" %}
+[controlling-gpio-in-linux-on-navq.md](controlling-gpio-in-linux-on-navq.md)
+{% endcontent-ref %}
 
-{% page-ref page="spi.md" %}
+{% content-ref url="spi.md" %}
+[spi.md](spi.md)
+{% endcontent-ref %}
 
-{% page-ref page="i2c/" %}
+{% content-ref url="i2c/" %}
+[i2c](i2c/)
+{% endcontent-ref %}
 
-{% page-ref page="can-communication.md" %}
-
-
+{% content-ref url="can-communication.md" %}
+[can-communication.md](can-communication.md)
+{% endcontent-ref %}
 
